@@ -1,0 +1,428 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+    Страница проекта
+{% endblock title %}
+
+{% block content %}
+<div class="row" style="padding: 10px; margin: 0px;">
+    <div class="col-lg-12" style="text-align: center; padding: 10px; font-size: 100%; color: red; padding-left: 30%; padding-right: 30%;">
+        <strong>Данный раздел преднозначен для проведения полной настройки приложения (кнопки настройки скрыты - причиной является тот факт, что не соблюдение четкого алгоритма приведет к отказу роботоспособности приложения)</strong>
+    </div>
+</div>
+
+<div class="row" style="padding: 10px; margin: 0px;">
+    <div class="col-lg-4" style="text-align: center; padding: 10px;">
+        <form method="POST" enctype="multipart/form-data">{% csrf_token %}
+            <div style="background-image: linear-gradient(#f5f5f5, #ffffff); box-shadow: 0 0 6px rgba(0,0,0,0.2);">
+                <span style="font-size: 100%; width: 100%;"><strong>1. Проводим запись в базу файла - apps </strong></span><br>
+{#                    <div style="min-height: 65px; padding: 5px; margin-bottom: 0px; margin-top: 0px;">#}
+{#                        <span style="color: #30a5ff;">Выберите файл для записи:</span><br>#}
+{#                        <div style="font-size: 80%;">#}
+{#                            <div class="row">#}
+{#                                <div class="col-lg-6">#}
+{#                                    <input style="font-size: 100%; text-align: center;" type="file" class="btn btn-primary btn-md" name="file_for_export">#}
+{#                                </div>#}
+{#                                <div class="col-lg-6">#}
+{#                                    <button class="btn" type="submit" name="export_apps">#}
+{#                                        Старт ЗАПИСИ ФАЙЛА#}
+{#                                    </button>#}
+{#                                </div>#}
+{#                            </div>#}
+{#                        </div>#}
+{#                    </div>#}
+            </div>
+        </form>
+    </div>
+    <div class="col-lg-4" style="text-align: center; padding: 10px;">
+        <form method="POST" enctype="multipart/form-data">{% csrf_token %}
+            <div style="background-image: linear-gradient(#f5f5f5, #ffffff); box-shadow: 0 0 6px rgba(0,0,0,0.2);">
+                <span style="font-size: 100%; width: 100%;"><strong>2. Проводим запись в базу файла - orders </strong></span><br>
+{#                    <div style="min-height: 65px; padding: 5px; margin-bottom: 0px; margin-top: 0px;">#}
+{#                        <span style="color: #30a5ff;">Выберите файл для записи:</span><br>#}
+{#                        <div style="font-size: 80%;">#}
+{#                            <div class="row">#}
+{#                                <div class="col-lg-6">#}
+{#                                    <input style="font-size: 100%; text-align: center;" type="file" class="btn btn-primary btn-md" name="file_for_export">#}
+{#                                </div>#}
+{#                                <div class="col-lg-6">#}
+{#                                    <button class="btn" type="submit" name="export_orders">#}
+{#                                        Старт ЗАПИСИ ФАЙЛА (кнопка)#}
+{#                                    </button>#}
+{#                                </div>#}
+{#                            </div>#}
+{#                        </div>#}
+{#                    </div>#}
+            </div>
+        </form>
+    </div>
+    <div class="col-lg-4" style="text-align: center; padding: 10px;">
+        <form method="POST" enctype="multipart/form-data">{% csrf_token %}
+            <div style="background-image: linear-gradient(#f5f5f5, #ffffff); box-shadow: 0 0 6px rgba(0,0,0,0.2);">
+                <span style="font-size: 100%; width: 100%;"><strong>3. Проводим запись в базу файла - link_data </strong></span><br>
+{#                    <div style="min-height: 65px; padding: 5px; margin-bottom: 0px; margin-top: 0px;">#}
+{#                        <span style="color: #30a5ff;">Выберите файл для записи:</span><br>#}
+{#                        <div style="font-size: 80%;">#}
+{#                            <div class="row">#}
+{#                                <div class="col-lg-6">#}
+{#                                    <input style="font-size: 100%; text-align: center;" type="file" class="btn btn-primary btn-md" name="file_for_export">#}
+{#                                </div>#}
+{#                                <div class="col-lg-6">#}
+{#                                    <button class="btn" type="submit" name="export_link_data">#}
+{#                                        Старт ЗАПИСИ ФАЙЛА#}
+{#                                    </button>#}
+{#                                </div>#}
+{#                            </div>#}
+{#                        </div>#}
+{#                    </div>#}
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="row" style="padding: 10px; margin: 0px;">
+    <div class="col-lg-4" style="text-align: center; padding: 10px;">
+        <form method="POST" enctype="multipart/form-data">{% csrf_token %}
+            <div style="background-image: linear-gradient(#f5f5f5, #ffffff); box-shadow: 0 0 6px rgba(0,0,0,0.2);">
+                <span style="font-size: 100%; width: 100%;"><strong>4. Проводим экспорт в базу файла - apps </strong></span><br>
+{#                    <div style="min-height: 65px; padding: 5px; margin-bottom: 0px; margin-top: 0px;">#}
+{#                        <div>#}
+{#                            <div class="row">#}
+{#                                <div class="col-lg-12">#}
+{#                                    <select name="file_for_load_in_BD" required="" id="file_for_load_in_BD">#}
+{#                                        {% for file in all_file_apps %}#}
+{#                                            <option selected="selected" value="{{ file.id }}">{{ file.data_load }}</option>#}
+{#                                        {% endfor %}#}
+{#                                    </select>#}
+{#                                </div>#}
+{#                                <div class="col-lg-12">#}
+{#                                    <button class="btn" type="submit" name="export_apps_file_in_BD" style="width: 100%">#}
+{#                                        Старт ЭКСПОРТА ФАЙЛА apps#}
+{#                                    </button>#}
+{#                                </div>#}
+{#                            </div>#}
+{#                        </div>#}
+{#                    </div>#}
+            </div>
+        </form>
+    </div>
+    <div class="col-lg-4" style="text-align: center; padding: 10px;">
+        <form method="POST" enctype="multipart/form-data">{% csrf_token %}
+            <div style="background-image: linear-gradient(#f5f5f5, #ffffff); box-shadow: 0 0 6px rgba(0,0,0,0.2);">
+                <span style="font-size: 100%; width: 100%;"><strong>5. Проводим экспорт в базу файла - orders </strong></span><br>
+{#                    <div style="min-height: 65px; padding: 5px; margin-bottom: 0px; margin-top: 0px;">#}
+{#                        <div>#}
+{#                            <div class="row">#}
+{#                                <div class="col-lg-12">#}
+{#                                    <select name="file_for_load_in_BD" required="" id="file_for_load_in_BD">#}
+{#                                        {% for file in all_file_orders %}#}
+{#                                            <option selected="selected" value="{{ file.id }}">{{ file.data_load }}</option>#}
+{#                                        {% endfor %}#}
+{#                                    </select>#}
+{#                                </div>#}
+{#                                <div class="col-lg-12">#}
+{#                                    <button class="btn" type="submit" name="export_orders_file_in_BD" style="width: 100%">#}
+{#                                        Старт ЭКСПОРТА ФАЙЛА orders#}
+{#                                    </button>#}
+{#                                </div>#}
+{#                            </div>#}
+{#                        </div>#}
+{#                    </div>#}
+            </div>
+        </form>
+    </div>
+    <div class="col-lg-4" style="text-align: center; padding: 10px;">
+        <form method="POST" enctype="multipart/form-data">{% csrf_token %}
+            <div style="background-image: linear-gradient(#f5f5f5, #ffffff); box-shadow: 0 0 6px rgba(0,0,0,0.2);">
+                <span style="font-size: 100%; width: 100%;"><strong>6. Проводим экспорт в базу файла - link_data </strong></span><br>
+{#                    <div style="min-height: 65px; padding: 5px; margin-bottom: 0px; margin-top: 0px;">#}
+{#                        <div>#}
+{#                            <div class="row">#}
+{#                                <div class="col-lg-12">#}
+{#                                    <select name="file_for_load_in_BD" required="" id="file_for_load_in_BD">#}
+{#                                        {% for file in all_file_link_data %}#}
+{#                                            <option selected="selected" value="{{ file.id }}">{{ file.data_load }}</option>#}
+{#                                        {% endfor %}#}
+{#                                    </select>#}
+{#                                </div>#}
+{#                                <div class="col-lg-12">#}
+{#                                    <button class="btn" type="submit" name="export_link_data_file_in_BD" style="width: 100%">#}
+{#                                        Старт ЭКСПОРТА ФАЙЛА link_data#}
+{#                                    </button>#}
+{#                                </div>#}
+{#                            </div>#}
+{#                        </div>#}
+{#                    </div>#}
+            </div>
+        </form>
+    </div>
+
+
+    <div class="col-lg-4" style="text-align: center; padding: 10px;">
+        <form method="POST">{% csrf_token %}
+            <div style="background-image: linear-gradient(#f5f5f5, #ffffff); box-shadow: 0 0 6px rgba(0,0,0,0.2);">
+                <span style="font-size: 100%; width: 100%;"><strong>7. Проводим отчистку существующей базы (стадия 1)</strong></span><br>
+{#                    <div style="min-height: 65px; padding: 5px; margin-bottom: 0px; margin-top: 0px;">#}
+{#                        <div>#}
+{#                            <div class="row">#}
+{##}
+{#                                <div class="col-lg-12">#}
+{#                                    <button class="btn" type="submit" name="cleen_EB_Session" style="width: 100%">#}
+{#                                        1. Начать отчистку - EB_Session#}
+{#                                    </button>#}
+{#                                </div>#}
+{#                            </div>#}
+{#                        </div>#}
+{#                    </div>#}
+            </div>
+        </form>
+    </div>
+
+    <div class="col-lg-4" style="text-align: center; padding: 10px;">
+        <form method="POST">{% csrf_token %}
+            <div style="background-image: linear-gradient(#f5f5f5, #ffffff); box-shadow: 0 0 6px rgba(0,0,0,0.2);">
+                <span style="font-size: 100%; width: 100%;"><strong>8. Проводим отчистку существующей базы (стадия 2)</strong></span><br>
+{#                    <div style="min-height: 65px; padding: 5px; margin-bottom: 0px; margin-top: 0px;">#}
+{#                        <div>#}
+{#                            <div class="row">#}
+{##}
+{#                                <div class="col-lg-12">#}
+{#                                    <button class="btn" type="submit" name="cleen_EB_Data_Link" style="width: 100%">#}
+{#                                        2. Начать отчистку - EB_Data_Link и EB_Place#}
+{#                                    </button>#}
+{#                                </div>#}
+{#                            </div>#}
+{#                        </div>#}
+{#                    </div>#}
+            </div>
+        </form>
+    </div>
+
+    <div class="col-lg-4" style="text-align: center; padding: 10px;">
+        <form method="POST">{% csrf_token %}
+            <div style="background-image: linear-gradient(#f5f5f5, #ffffff); box-shadow: 0 0 6px rgba(0,0,0,0.2);">
+                <span style="font-size: 100%; width: 100%;"><strong>9. Проводим отчистку существующей базы (стадия 3)</strong></span><br>
+{#                    <div style="min-height: 65px; padding: 5px; margin-bottom: 0px; margin-top: 0px;">#}
+{#                        <div>#}
+{#                            <div class="row">#}
+{##}
+{#                                <div class="col-lg-12">#}
+{#                                    <button class="btn" type="submit" name="cleen_EB_App_Ul" style="width: 100%">#}
+{#                                        3. Начать отчистку - EB_App_Ul и EB_Data_App#}
+{#                                    </button>#}
+{#                                </div>#}
+{#                            </div>#}
+{#                        </div>#}
+{#                    </div>#}
+            </div>
+        </form>
+    </div>
+
+    <div class="col-lg-12" style="text-align: center; padding: 10px;">
+        <form method="POST">{% csrf_token %}
+            <div style="background-image: linear-gradient(#f5f5f5, #ffffff); box-shadow: 0 0 6px rgba(0,0,0,0.2);">
+                <span style="font-size: 100%; width: 100%;"><strong>10. Проводим преобразование базы время старта/окончания работы приложения (переход через XX.00)</strong></span><br>
+{#                    <div style="min-height: 65px; padding: 5px; margin-bottom: 0px; margin-top: 0px;">#}
+{#                        <div>#}
+{#                            <div class="row">#}
+{#                                <div class="col-lg-12">#}
+{#                                    <button class="btn" type="submit" name="create_new_bd_xx_00" style="width: 100%">#}
+{#                                        Начать преобразование#}
+{#                                    </button>#}
+{#                                </div>#}
+{#                            </div>#}
+{#                        </div>#}
+{#                    </div>#}
+            </div>
+        </form>
+    </div>
+
+    <div class="col-lg-6" style="text-align: center; padding: 10px;">
+        <form method="POST">{% csrf_token %}
+            <div style="background-image: linear-gradient(#f5f5f5, #ffffff); box-shadow: 0 0 6px rgba(0,0,0,0.2);">
+                <span style="font-size: 100%; width: 100%;"><strong>11. Установка нового ключа взаимосвязей (order-data)</strong></span><br>
+{#                    <div style="min-height: 65px; padding: 5px; margin-bottom: 0px; margin-top: 0px;">#}
+{#                        <div>#}
+{#                            <div class="row">#}
+{##}
+{#                                <div class="col-lg-12">#}
+{#                                    <button class="btn" type="submit" name="load_key" style="width: 100%">#}
+{#                                        Начать установку#}
+{#                                    </button>#}
+{#                                </div>#}
+{#                            </div>#}
+{#                        </div>#}
+{#                    </div>#}
+            </div>
+        </form>
+    </div>
+
+
+    <div class="col-lg-6" style="text-align: center; padding: 10px;">
+        <form method="POST">{% csrf_token %}
+            <div style="background-image: linear-gradient(#f5f5f5, #ffffff); box-shadow: 0 0 6px rgba(0,0,0,0.2);">
+                <span style="font-size: 100%; width: 100%;"><strong>12. Проверка контрольных сумм (с пересохранением)</strong></span><br>
+{#                    <div style="min-height: 65px; padding: 5px; margin-bottom: 0px; margin-top: 0px;">#}
+{#                        <div>#}
+{#                            <div class="row">#}
+{##}
+{#                                <div class="col-lg-12">#}
+{#                                    <button class="btn" type="submit" name="rep_db" style="width: 100%">#}
+{#                                        Начать проверку#}
+{#                                    </button>#}
+{#                                </div>#}
+{#                            </div>#}
+{#                        </div>#}
+{#                    </div>#}
+            </div>
+        </form>
+    </div>
+
+
+    <div class="col-lg-6" style="text-align: center; padding: 10px;">
+        <form method="POST">{% csrf_token %}
+            <div style="background-image: linear-gradient(#f5f5f5, #ffffff); box-shadow: 0 0 6px rgba(0,0,0,0.2);">
+                <span style="font-size: 100%; width: 100%;"><strong>13. Создание и редактирование индивидуальных дат (переход чрез сутки)</strong></span><br>
+{#                    <div style="min-height: 65px; padding: 5px; margin-bottom: 0px; margin-top: 0px;">#}
+{#                        <div>#}
+{#                            <div class="row">#}
+{##}
+{#                                <div class="col-lg-12">#}
+{#                                    <button class="btn" type="submit" name="sinhronisation_db" style="width: 100%">#}
+{#                                        Начать синхронизацию#}
+{#                                    </button>#}
+{#                                </div>#}
+{#                            </div>#}
+{#                        </div>#}
+{#                    </div>#}
+            </div>
+        </form>
+    </div>
+
+    <div class="col-lg-6" style="text-align: center; padding: 10px;">
+        <form method="POST">{% csrf_token %}
+            <div style="background-image: linear-gradient(#f5f5f5, #ffffff); box-shadow: 0 0 6px rgba(0,0,0,0.2);">
+                <span style="font-size: 100%; width: 100%;"><strong>14. Контрольная проверка</strong></span><br>
+{#                    <div style="min-height: 65px; padding: 5px; margin-bottom: 0px; margin-top: 0px;">#}
+{#                        <div>#}
+{#                            <div class="row">#}
+{##}
+{#                                <div class="col-lg-12">#}
+{#                                    <button class="btn" type="submit" name="cont_db" style="width: 100%">#}
+{#                                        Начать проверку#}
+{#                                    </button>#}
+{#                                </div>#}
+{#                            </div>#}
+{#                        </div>#}
+{#                    </div>#}
+            </div>
+        </form>
+    </div>
+
+    <div class="col-lg-6" style="text-align: center; padding: 10px;">
+        <form method="POST">{% csrf_token %}
+            <div style="background-image: linear-gradient(#f5f5f5, #ffffff); box-shadow: 0 0 6px rgba(0,0,0,0.2);">
+                <span style="font-size: 100%; width: 100%;"><strong>15. Внесение данных в модель активности</strong></span><br>
+{#                    <div style="min-height: 65px; padding: 5px; margin-bottom: 0px; margin-top: 0px;">#}
+{#                        <div>#}
+{#                            <div class="row">#}
+{##}
+{#                                <div class="col-lg-12">#}
+{#                                    <button class="btn" type="submit" name="activ_hour_db" style="width: 100%">#}
+{#                                        Начать процесс#}
+{#                                    </button>#}
+{#                                </div>#}
+{#                            </div>#}
+{#                        </div>#}
+{#                    </div>#}
+            </div>
+        </form>
+    </div>
+
+    <div class="col-lg-6" style="text-align: center; padding: 10px;">
+        <form method="POST">{% csrf_token %}
+            <div style="background-image: linear-gradient(#f5f5f5, #ffffff); box-shadow: 0 0 6px rgba(0,0,0,0.2);">
+                <span style="font-size: 100%; width: 100%;"><strong>16. Внесение данных в модель активности</strong></span><br>
+{#                    <div style="min-height: 65px; padding: 5px; margin-bottom: 0px; margin-top: 0px;">#}
+{#                        <div>#}
+{#                            <div class="row">#}
+{##}
+{#                                <div class="col-lg-12">#}
+{#                                    <button class="btn" type="submit" name="activ_day_db" style="width: 100%">#}
+{#                                        Начать процесс#}
+{#                                    </button>#}
+{#                                </div>#}
+{#                            </div>#}
+{#                        </div>#}
+{#                    </div>#}
+            </div>
+        </form>
+    </div>
+
+    <div class="col-lg-12" style="text-align: center; padding: 10px;">
+        <form method="POST">{% csrf_token %}
+            <div style="background-image: linear-gradient(#f5f5f5, #ffffff); box-shadow: 0 0 6px rgba(0,0,0,0.2);">
+                <span style="font-size: 100%; width: 100%;"><strong>17. Обработка данных (внесение привязки дня недели)</strong></span><br>
+{#                    <div style="min-height: 65px; padding: 5px; margin-bottom: 0px; margin-top: 0px;">#}
+{#                        <div>#}
+{#                            <div class="row">#}
+{##}
+{#                                <div class="col-lg-12">#}
+{#                                    <button class="btn" type="submit" name="day_of_the_week" style="width: 100%">#}
+{#                                        Начать процесс#}
+{#                                    </button>#}
+{#                                </div>#}
+{#                            </div>#}
+{#                        </div>#}
+{#                    </div>#}
+            </div>
+        </form>
+    </div>
+
+    <div class="col-lg-12" style="text-align: center; padding: 10px;">
+        <form method="POST">{% csrf_token %}
+            <div style="background-image: linear-gradient(#f5f5f5, #ffffff); box-shadow: 0 0 6px rgba(0,0,0,0.2);">
+                <span style="font-size: 100%; width: 100%;"><strong>18. Расчет средней скорости дохода $/час</strong></span><br>
+{#                    <div style="min-height: 65px; padding: 5px; margin-bottom: 0px; margin-top: 0px;">#}
+{#                        <div>#}
+{#                            <div class="row">#}
+{##}
+{#                                <div class="col-lg-12">#}
+{#                                    <button class="btn" type="submit" name="res_med_speed" style="width: 100%">#}
+{#                                        Начать процесс#}
+{#                                    </button>#}
+{#                                </div>#}
+{#                            </div>#}
+{#                        </div>#}
+{#                    </div>#}
+            </div>
+        </form>
+    </div>
+
+    <div class="col-lg-12" style="text-align: center; padding: 10px;">
+        <form method="POST">{% csrf_token %}
+            <div style="background-image: linear-gradient(#f5f5f5, #ffffff); box-shadow: 0 0 6px rgba(0,0,0,0.2);">
+                <span style="font-size: 100%; width: 100%;"><strong>19. Средний показатель за неделю по всем приложениям</strong></span><br>
+{#                    <div style="min-height: 65px; padding: 5px; margin-bottom: 0px; margin-top: 0px;">#}
+{#                        <div>#}
+{#                            <div class="row">#}
+{##}
+{#                                <div class="col-lg-12">#}
+{#                                    <button class="btn" type="submit" name="res_med_speed_week" style="width: 100%">#}
+{#                                        Начать процесс#}
+{#                                    </button>#}
+{#                                </div>#}
+{#                            </div>#}
+{#                        </div>#}
+{#                    </div>#}
+            </div>
+        </form>
+    </div>
+</div>
+
+{% endblock content %}
+
+{% block scripts %}
+
+{% endblock scripts %}

@@ -1,0 +1,50 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>
+            {% block title %}
+            {% endblock title %}
+        </title>
+
+        <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+        <link href="{% static 'css/datepicker3.css' %}" rel="stylesheet">
+        <link href="{% static 'css/styles.css' %}" rel="stylesheet">
+
+        {% block font %}
+        {% endblock font %}
+
+        <!--[if lt IE 9]>
+        <script src="{% static 'js/html5shiv.js' %}"></script>
+        <script src="{% static 'js/respond.min.js' %}"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+
+{#    {% if no_show_navbar != True %}#}
+        {% include 'navbar.html' %}
+{#    {% endif %}#}
+
+        {% block content %}
+        {% endblock content %}
+
+        <script src="{% static 'js/jquery-1.11.1.min.js' %}"></script>
+        <script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+        <script src="{% static 'js/chart.min.js' %}"></script>
+        <script src="{% static 'js/chart-data.js' %}"></script>
+        <script src="{% static 'js/easypiechart.js' %}"></script>
+        <script src="{% static 'js/easypiechart-data.js' %}"></script>
+        <script src="{% static 'js/bootstrap-datepicker.js' %}"></script>
+        <script src="{% static 'js/custom.js' %}"></script>
+
+        {% block scripts %}
+        {% endblock scripts %}
+
+    </body>
+</html>

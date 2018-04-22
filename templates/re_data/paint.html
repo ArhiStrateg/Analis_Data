@@ -1,0 +1,224 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+    Страница проекта
+{% endblock title %}
+
+{% block content %}
+<div class="row" style="margin: 0px; padding: 15px;">
+    <div class="col-lg-12" style="background-image: linear-gradient(#f5f5f5, #ffffff); box-shadow: 0 0 6px rgba(0,0,0,0.2);">
+        <div style="font-size: 200%; text-align: center; margin: 5px;">
+            <span>
+                Ананализ данных для приложения
+            </span><br>
+            <strong>
+                Paint
+            </strong>
+        </div>
+    </div>
+</div>
+<div class="row" style="margin: 0px; padding: 15px;">
+    <div class="col-lg-12" style="background-image: linear-gradient(#f5f5f5, #ffffff); box-shadow: 0 0 6px rgba(0,0,0,0.2); padding-right: 20px;">
+        <div class="row" style="margin: 0px; padding: 15px;">
+            <div class="col-lg-12" style="background-image: linear-gradient(#f5f5f5, #e9e9e9); box-shadow: 0 0 6px rgba(0,0,0,0.2);">
+                <div style="font-size: 150%; text-align: center; margin: 5px;">
+                    <span>Вариант решения поставленной задачи - <strong>1</strong></span>
+                </div>
+            </div>
+            <div class="col-lg-12" style="margin: 0px; padding-top: 15px; padding-bottom: 15px; padding-left: 0px; padding-right: 0px;">
+                <div class="col-lg-12" style="background-image: linear-gradient(#f5f5f5, #ffffff); box-shadow: 0 0 6px rgba(0,0,0,0.2);">
+                    <div class="col-lg-12" style="text-align: center">
+                        <div style="font-size: 120%; background-image: linear-gradient(#f5f5f5, #e9e9e9); box-shadow: 0 0 6px rgba(0,0,0,0.2); margin: 5px; padding: 5px; margin-bottom: 10px;">
+                            <strong>Максимальный показатель получения прибыли имеют следующие дни недели:</strong>
+                        </div>
+                    </div>
+                    <div>
+                        {% for winer in list_all_winer %}
+                            <div class="col-lg-2" style="text-align: center">
+                                <div style="background-image: linear-gradient(#f5f5f5, #ffffff); box-shadow: 0 0 6px rgba(0,0,0,0.2);
+                                 margin: 5px; padding: 5px; margin-bottom: 10px;">
+                                    <div>
+                                        <span style="font-size: 100%"><strong>{{ winer.day_of_the_week  }}</strong></span>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12" style="margin: 0px; padding-top: 0px; padding-bottom: 15px; padding-left: 0px; padding-right: 0px;">
+                <div class="col-lg-12" style="background-image: linear-gradient(#f5f5f5, #ffffff); box-shadow: 0 0 6px rgba(0,0,0,0.2);">
+                    <div class="col-lg-12" style="text-align: center">
+                        <div style="text-align: center">
+                            <div style="font-size: 120%; background-image: linear-gradient(#f5f5f5, #e9e9e9); box-shadow: 0 0 6px rgba(0,0,0,0.2); margin: 5px; padding: 5px; margin-bottom: 10px;">
+                                <strong>Максимальный показатель получения прибыли исходя из параметра - время, соответсвует следующим показателям</strong><br>
+                                <span style="font-size: 80%;">(исключительно для дней с <strong>МАКСИМАЛЬНОЙ</strong> прибыльностью):</span>
+                            </div>
+                        </div>
+                    </div>
+                    {% for max_time in list_all_max_time_1_2 %}
+                        <div class="col-lg-2" style="text-align: center">
+                            <div style="background-image: linear-gradient(#f5f5f5, #ffffff); box-shadow: 0 0 6px rgba(0,0,0,0.2); margin: 5px; padding: 5px;
+                            margin-bottom: 10px;">
+                                <div>
+                                    <span style="font-size: 80%">Начало интервала:</span><br>
+                                    <span style="font-size: 100%"><strong>{{ max_time.start_time }}</strong></span><br>
+                                    <span style="font-size: 80%">Конец интервала:</span><br>
+                                    <span style="font-size: 100%"><strong>{{ max_time.end_time }}</strong></span><br>
+                                    <span style="font-size: 80%">Сумма / Сумма (с учетом 1%)</span><br>
+                                    <span style="font-size: 100%;"><strong>{{ max_time.sum_one }} / <span style="color: red;">{{ max_time.sum_two }}</span></strong></span><br>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                    <div class="col-lg-12" style="text-align: center">
+                        <div style="background-image: linear-gradient(#f5f5f5, #e9e9e9); box-shadow: 0 0 6px rgba(0,0,0,0.2); margin: 5px; padding: 5px; margin-bottom: 10px;">
+                            <span style="font-size: 120%">
+                                <span style="font-size: 90%;"><strong>Резюме:</strong></span><br>
+                                <span style="font-size: 80%;">Итоговая сумма по всем ордерам данных временныx интервалов - <strong>{{ result_summ_1_2 }}</strong></span><br>
+                                <span style="font-size: 80%;">Итоговая сумма с учетом повышения стоимости услуг на 1% - <strong>{{ sum_two_1_2 }}</strong></span><br>
+                                <span style="font-size: 80%;">Дополнительная прибыль - <strong style="color: red">{{ ras_1_2 }}</strong></span><br>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12" style="margin: 0px; padding-top: 15px; padding-bottom: 15px; padding-left: 0px; padding-right: 0px;">
+                <div class="col-lg-12" style="background-image: linear-gradient(#f5f5f5, #ffffff); box-shadow: 0 0 6px rgba(0,0,0,0.2);">
+                    <div class="col-lg-12" style="text-align: center">
+                        <div style="background-image: linear-gradient(#f5f5f5, #e9e9e9); box-shadow: 0 0 6px rgba(0,0,0,0.2); margin: 5px; padding: 5px; margin-bottom: 10px;">
+                            <span style="font-size: 120%"><strong>Перечень дней недели, которые не имеют максимальный доход:</strong></span><br>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="row">
+                            {% for dont_winer in list_all_day_week_dont_winner %}
+                            <div class="col-lg-2" style="text-align: center">
+                                <div style="background-image: linear-gradient(#f5f5f5, #ffffff); box-shadow: 0 0 6px rgba(0,0,0,0.2);
+                                 margin: 5px; padding: 5px; margin-bottom: 10px;">
+                                        <div>
+                                            <span style="font-size: 100%"><strong>{{ dont_winer  }}</strong></span><br>
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12" style="margin: 0px; padding-top: 0px; padding-bottom: 15px; padding-left: 0px; padding-right: 0px;">
+                <div class="col-lg-12" style="background-image: linear-gradient(#f5f5f5, #ffffff); box-shadow: 0 0 6px rgba(0,0,0,0.2);">
+                    <div class="col-lg-12" style="text-align: center">
+                        <div style="background-image: linear-gradient(#f5f5f5, #e9e9e9); box-shadow: 0 0 6px rgba(0,0,0,0.2); margin: 5px; padding: 5px; margin-bottom: 10px;">
+                            <span style="font-size: 120%">
+                                <strong>Максимальный показатель получения прибыли исходя из параметра - время, соответсвует следующим показателям</strong><br>
+                                <span style="font-size: 80%;">(исключительно для дней с <strong>НЕ МАКСИМАЛЬНОЙ</strong> прибыльностью).</span><br>
+                            </span>
+                        </div>
+                    </div>
+                    {% for max_time in list_all_max_time_1_3 %}
+                        <div class="col-lg-2" style="text-align: center">
+                            <div style="background-image: linear-gradient(#f5f5f5, #ffffff); box-shadow: 0 0 6px rgba(0,0,0,0.2); margin: 5px; padding: 5px; margin-bottom: 10px;">
+                                <div>
+                                    <span style="font-size: 80%">Начало интервала:</span><br>
+                                    <span style="font-size: 100%"><strong>{{ max_time.start_time }}</strong></span><br>
+                                    <span style="font-size: 80%">Конец интервала:</span><br>
+                                    <span style="font-size: 100%"><strong>{{ max_time.end_time }}</strong></span><br>
+                                    <span style="font-size: 80%">Сумма / Сумма (с учетом 1%)</span><br>
+                                    <span style="font-size: 100%;"><strong>{{ max_time.sum_one }} / <span style="color: red;">{{ max_time.sum_two }}</span></strong></span><br>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                    <div class="col-lg-12" style="text-align: center">
+                        <div style="background-image: linear-gradient(#f5f5f5, #e9e9e9); box-shadow: 0 0 6px rgba(0,0,0,0.2); margin: 5px; padding: 5px; margin-bottom: 10px;">
+                            <span style="font-size: 120%">
+                                <span style="font-size: 90%;"><strong>Резюме:</strong></span><br>
+                                <span style="font-size: 80%;">Итоговая сумма по всем ордерам данных временныx интервалов - <strong>{{ result_summ_1_3 }}</strong></span><br>
+                                <span style="font-size: 80%;">Итоговая сумма с учетом повышения стоимости услуг на 1% - <strong>{{ sum_two_1_3 }}</strong></span><br>
+                                <span style="font-size: 80%;">Дополнительная прибыль - <strong style="color: red">{{ ras_1_3 }}</strong></span><br>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row" style="margin: 0px; padding: 15px;">
+    <div class="col-lg-12" style="background-image: linear-gradient(#f5f5f5, #ffffff); box-shadow: 0 0 6px rgba(0,0,0,0.2); padding-right: 20px;">
+        <div class="row" style="margin: 0px; padding: 15px;">
+            <div class="col-lg-12" style="background-image: linear-gradient(#f5f5f5, #e9e9e9); box-shadow: 0 0 6px rgba(0,0,0,0.2);">
+                <div style="font-size: 150%; text-align: center; margin: 5px;">
+                    <span>Вариант решения поставленной задачи - <strong>2</strong></span>
+                </div>
+            </div>
+            <div class="col-lg-12" style="margin: 0px; padding-top: 15px; padding-bottom: 15px; padding-left: 0px; padding-right: 0px;">
+                <div class="col-lg-12" style="background-image: linear-gradient(#f5f5f5, #ffffff); box-shadow: 0 0 6px rgba(0,0,0,0.2);">
+                    <div class="col-lg-12" style="text-align: center">
+                        <div style="background-image: linear-gradient(#f5f5f5, #e9e9e9); box-shadow: 0 0 6px rgba(0,0,0,0.2); margin: 5px; padding: 5px; margin-bottom: 10px;">
+                            <span style="font-size: 120%">
+                                <strong>Максимальный показатель получения прибыли имеют следующие дни недели:</strong>
+                            </span>
+                        </div>
+                    </div>
+                    <div>
+                        {% for winer in list_all_winer %}
+                            <div class="col-lg-2" style="text-align: center">
+                                <div style="background-image: linear-gradient(#f5f5f5, #ffffff); box-shadow: 0 0 6px rgba(0,0,0,0.2);
+                                 margin: 5px; padding: 5px; margin-bottom: 10px;">
+                                    <div>
+                                        <span style="font-size: 100%"><strong>{{ winer.day_of_the_week  }}</strong></span>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12" style="margin: 0px; padding-top: 0px; padding-bottom: 15px; padding-left: 0px; padding-right: 0px;">
+                <div class="col-lg-12" style="background-image: linear-gradient(#f5f5f5, #ffffff); box-shadow: 0 0 6px rgba(0,0,0,0.2);">
+                    <div class="col-lg-12" style="text-align: center">
+                        <div style="background-image: linear-gradient(#f5f5f5, #e9e9e9); box-shadow: 0 0 6px rgba(0,0,0,0.2); margin: 5px; padding: 5px; margin-bottom: 10px;">
+                            <span style="font-size: 120%">
+                                <strong>Максимальный показатель получения прибыли исходя из параметра - время, соответсвует следующим показателям:</strong>
+                            </span><br>
+                        </div>
+                    </div>
+                    {% for max_time in list_all_max_time %}
+                        <div class="col-lg-2" style="text-align: center">
+                            <div style="background-image: linear-gradient(#f5f5f5, #ffffff); box-shadow: 0 0 6px rgba(0,0,0,0.2); margin: 5px; padding: 5px;
+                            margin-bottom: 10px;">
+                                <div>
+                                    <span style="font-size: 80%">Начало интервала:</span><br>
+                                    <span style="font-size: 100%"><strong>{{ max_time.start_time }}</strong></span><br>
+                                    <span style="font-size: 80%">Конец интервала:</span><br>
+                                    <span style="font-size: 100%"><strong>{{ max_time.end_time }}</strong></span><br>
+                                    <span style="font-size: 80%">Сумма / Сумма (с учетом 1%)</span><br>
+                                    <span style="font-size: 100%;"><strong>{{ max_time.sum_one }} / <span style="color: red;">{{ max_time.sum_two }}</span></strong></span><br>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                    <div class="col-lg-12" style="text-align: center">
+                        <div style="background-image: linear-gradient(#f5f5f5, #e9e9e9); box-shadow: 0 0 6px rgba(0,0,0,0.2); margin: 5px; padding: 5px; margin-bottom: 10px;">
+                            <span style="font-size: 120%">
+                                <span style="font-size: 90%;"><strong>Резюме:</strong></span><br>
+                                <span style="font-size: 80%;">Итоговая сумма по всем ордерам данных временныx интервалов - <strong>{{ result_summ_1_1 }}</strong></span><br>
+                                <span style="font-size: 80%;">Итоговая сумма с учетом повышения стоимости услуг на 1% - <strong>{{ sum_two_1_1 }}</strong></span><br>
+                                <span style="font-size: 80%;">Дополнительная прибыль - <strong style="color: red">{{ ras_1_1 }}</strong></span><br>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock content %}
+
+{% block scripts %}
+{% endblock scripts %}

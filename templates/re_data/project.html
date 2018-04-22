@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+    Страница проекта
+{% endblock title %}
+
+{% block content %}
+
+
+
+
+{% endblock content %}
+
+{% block scripts %}
+
+    <script type="text/javascript">
+        $('.btn-group').on('click', '.dropdown-menu > li > div  > div  > div > div > div ', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+        });
+    </script>
+
+{% endblock scripts %}
