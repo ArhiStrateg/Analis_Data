@@ -2,7 +2,249 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8535f41d-b5b2-4440-bc19-a8ec8e7d5aa9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1.dist-info/LICENSE.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1.dist-info/RECORD" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1.dist-info/entry_points.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/build_env.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/cache.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/check.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/configuration.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/install.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/compat.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/configuration.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/models/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/operations/check.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/operations/freeze.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/operations/prepare.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/req/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/req/req_set.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/req/req_uninstall.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/resolve.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/temp_dir.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/typing.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/msgpack/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/msgpack/_version.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/msgpack/exceptions.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/msgpack/fallback.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change beforePath="$PROJECT_DIR$/import_data/admin.py" afterPath="$PROJECT_DIR$/import_data/admin.py" />
+      <change beforePath="$PROJECT_DIR$/import_data/models.py" afterPath="$PROJECT_DIR$/import_data/models.py" />
+      <change beforePath="$PROJECT_DIR$/import_data/urls.py" afterPath="$PROJECT_DIR$/import_data/urls.py" />
+      <change beforePath="$PROJECT_DIR$/import_data/views.py" afterPath="$PROJECT_DIR$/import_data/views.py" />
+      <change beforePath="$PROJECT_DIR$/templates/navbar.html" afterPath="$PROJECT_DIR$/templates/navbar.html" />
+      <change beforePath="$PROJECT_DIR$/templates/re_data/airhockey.html" afterPath="$PROJECT_DIR$/templates/re_data/airhockey.html" />
+      <change beforePath="$PROJECT_DIR$/templates/re_data/jigsawpuzzle.html" afterPath="$PROJECT_DIR$/templates/re_data/jigsawpuzzle.html" />
+      <change beforePath="$PROJECT_DIR$/templates/re_data/memory.html" afterPath="$PROJECT_DIR$/templates/re_data/memory.html" />
+      <change beforePath="$PROJECT_DIR$/templates/re_data/news.html" afterPath="$PROJECT_DIR$/templates/re_data/news.html" />
+      <change beforePath="$PROJECT_DIR$/templates/re_data/paint.html" afterPath="$PROJECT_DIR$/templates/re_data/paint.html" />
+      <change beforePath="$PROJECT_DIR$/templates/re_data/photoshare.html" afterPath="$PROJECT_DIR$/templates/re_data/photoshare.html" />
+      <change beforePath="$PROJECT_DIR$/templates/re_data/restaurant.html" afterPath="$PROJECT_DIR$/templates/re_data/restaurant.html" />
+      <change beforePath="$PROJECT_DIR$/templates/re_data/wallpapers.html" afterPath="$PROJECT_DIR$/templates/re_data/wallpapers.html" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-9.0.3.dist-info/DESCRIPTION.rst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-9.0.3.dist-info/INSTALLER" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1.dist-info/INSTALLER" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-9.0.3.dist-info/METADATA" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1.dist-info/METADATA" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-9.0.3.dist-info/RECORD" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-9.0.3.dist-info/WHEEL" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1.dist-info/WHEEL" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-9.0.3.dist-info/entry_points.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-9.0.3.dist-info/metadata.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-9.0.3.dist-info/top_level.txt" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1.dist-info/top_level.txt" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/__init__.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/__main__.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/__main__.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/__init__.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/appdirs.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/appdirs.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/cachecontrol/__init__.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/cachecontrol/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/cachecontrol/adapter.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/cachecontrol/adapter.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/cachecontrol/caches/__init__.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/cachecontrol/caches/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/cachecontrol/caches/file_cache.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/cachecontrol/caches/file_cache.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/cachecontrol/caches/redis_cache.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/cachecontrol/caches/redis_cache.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/cachecontrol/compat.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/cachecontrol/compat.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/cachecontrol/controller.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/cachecontrol/controller.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/cachecontrol/heuristics.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/cachecontrol/heuristics.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/cachecontrol/serialize.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/cachecontrol/serialize.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/cachecontrol/wrapper.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/cachecontrol/wrapper.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/cli/chardetect.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/cli/chardetect.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/colorama/__init__.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/colorama/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/colorama/ansitowin32.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/colorama/ansitowin32.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/colorama/win32.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/colorama/win32.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/__init__.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/_backport/sysconfig.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/_backport/sysconfig.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/compat.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/compat.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/database.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/database.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/index.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/index.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/locators.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/locators.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/manifest.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/manifest.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/markers.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/markers.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/metadata.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/metadata.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/resources.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/resources.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/scripts.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/scripts.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/t32.exe" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/t32.exe" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/t64.exe" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/t64.exe" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/util.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/util.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/version.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/version.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/w32.exe" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/w32.exe" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/w64.exe" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/w64.exe" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/wheel.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/wheel.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distro.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distro.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/__init__.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/_ihatexml.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/_ihatexml.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/_inputstream.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/_inputstream.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/_trie/_base.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/_trie/_base.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/_utils.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/_utils.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/constants.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/constants.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/filters/alphabeticalattributes.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/filters/alphabeticalattributes.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/filters/inject_meta_charset.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/filters/inject_meta_charset.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/filters/lint.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/filters/lint.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/filters/optionaltags.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/filters/optionaltags.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/filters/sanitizer.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/filters/sanitizer.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/filters/whitespace.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/filters/whitespace.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/html5parser.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/html5parser.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/serializer.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/serializer.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/treeadapters/__init__.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/treeadapters/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/treeadapters/genshi.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/treeadapters/genshi.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/treeadapters/sax.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/treeadapters/sax.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/treebuilders/__init__.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/treebuilders/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/treebuilders/base.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/treebuilders/base.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/treebuilders/etree_lxml.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/treebuilders/etree_lxml.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/treewalkers/__init__.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/treewalkers/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/treewalkers/base.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/treewalkers/base.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/treewalkers/etree.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/treewalkers/etree.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/ipaddress.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/ipaddress.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/ordereddict.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/packaging/__about__.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/packaging/__about__.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/packaging/_structures.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/packaging/_structures.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/packaging/markers.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/packaging/markers.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/packaging/requirements.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/packaging/requirements.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/packaging/specifiers.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/packaging/specifiers.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/packaging/utils.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/packaging/utils.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/packaging/version.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/packaging/version.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pkg_resources/__init__.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pkg_resources/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/progress/__init__.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/progress/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/progress/bar.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/progress/bar.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/progress/counter.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/progress/counter.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/progress/helpers.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/progress/helpers.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/progress/spinner.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/progress/spinner.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pyparsing.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pyparsing.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/re-vendor.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/__init__.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/__version__.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/__version__.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/_internal_utils.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/_internal_utils.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/adapters.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/adapters.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/api.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/api.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/auth.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/auth.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/cacert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/certs.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/certs.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/compat.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/compat.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/cookies.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/cookies.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/exceptions.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/exceptions.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/help.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/help.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/hooks.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/hooks.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/models.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/models.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/packages.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/packages.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/sessions.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/sessions.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/status_codes.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/status_codes.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/structures.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/structures.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/utils.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/utils.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/retrying.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/retrying.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/six.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/six.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/__init__.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/_collections.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/_collections.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/connection.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/connection.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/connectionpool.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/connectionpool.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/_securetransport/bindings.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/_securetransport/bindings.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/_securetransport/low_level.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/_securetransport/low_level.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/appengine.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/appengine.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/ntlmpool.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/ntlmpool.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/pyopenssl.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/pyopenssl.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/securetransport.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/securetransport.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/socks.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/socks.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/exceptions.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/exceptions.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/fields.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/fields.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/filepost.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/filepost.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/packages/__init__.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/packages/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/packages/backports/makefile.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/packages/backports/makefile.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/packages/ordered_dict.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/packages/ordered_dict.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/packages/six.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/packages/six.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/packages/ssl_match_hostname/__init__.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/packages/ssl_match_hostname/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/packages/ssl_match_hostname/_implementation.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/packages/ssl_match_hostname/_implementation.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/poolmanager.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/poolmanager.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/request.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/request.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/response.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/response.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/util/__init__.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/util/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/util/connection.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/util/connection.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/util/request.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/util/request.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/util/response.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/util/response.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/util/retry.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/util/retry.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/util/selectors.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/util/selectors.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/util/ssl_.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/util/ssl_.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/util/timeout.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/util/timeout.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/util/url.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/util/url.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/util/wait.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/util/wait.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/webencodings/__init__.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/webencodings/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/webencodings/labels.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/webencodings/labels.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/webencodings/mklabels.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/webencodings/mklabels.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/webencodings/tests.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/webencodings/tests.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/webencodings/x_user_defined.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/webencodings/x_user_defined.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/basecommand.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/basecommand.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/baseparser.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/baseparser.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/cmdoptions.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/cmdoptions.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/commands/__init__.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/commands/check.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/commands/completion.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/completion.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/commands/download.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/download.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/commands/freeze.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/freeze.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/commands/hash.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/hash.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/commands/help.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/help.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/commands/install.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/commands/list.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/list.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/commands/search.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/search.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/commands/show.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/show.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/commands/uninstall.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/uninstall.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/commands/wheel.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/wheel.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/compat/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/compat/dictconfig.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/download.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/download.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/exceptions.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/exceptions.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/index.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/index.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/locations.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/locations.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/models/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/models/index.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/models/index.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/operations/__init__.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/operations/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/operations/check.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/operations/freeze.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/pep425tags.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/pep425tags.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/req/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/req/req_file.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/req/req_file.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/req/req_install.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/req/req_install.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/req/req_set.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/req/req_uninstall.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/status_codes.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/status_codes.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/utils/__init__.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/misc.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/utils/appdirs.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/appdirs.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/utils/build.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/utils/deprecation.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/deprecation.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/utils/encoding.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/encoding.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/utils/filesystem.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/filesystem.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/utils/glibc.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/glibc.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/utils/hashes.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/hashes.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/utils/logging.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/logging.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/utils/outdated.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/outdated.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/utils/packaging.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/packaging.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/utils/setuptools_build.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/setuptools_build.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/utils/ui.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/ui.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/vcs/__init__.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/vcs/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/vcs/bazaar.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/vcs/bazaar.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/vcs/git.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/vcs/git.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/vcs/mercurial.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/vcs/mercurial.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/vcs/subversion.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/vcs/subversion.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/wheel.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/wheel.py" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip.exe" afterPath="$PROJECT_DIR$/venv/Scripts/pip.exe" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3.6.exe" afterPath="$PROJECT_DIR$/venv/Scripts/pip3.6.exe" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3.exe" afterPath="$PROJECT_DIR$/venv/Scripts/pip3.exe" />
+      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterPath="$PROJECT_DIR$/venv/pip-selfcheck.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,55 +255,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/import_data/views.py">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/import_data/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="1091" column="51" lean-forward="false" selection-start-line="1091" selection-start-column="51" selection-end-line="1091" selection-end-column="51" />
+            <state relative-caret-position="34">
+              <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
               <folding>
-                <element signature="e#0#45#0" expanded="true" />
-                <marker date="1524345043483" expanded="true" signature="36330:36462" ph="..." />
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="photoshare.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/re_data/photoshare.html">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/import_data/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="223" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jigsawpuzzle.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/re_data/jigsawpuzzle.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="223" column="22" lean-forward="false" selection-start-line="223" selection-start-column="22" selection-end-line="223" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="airhockey.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/re_data/airhockey.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="223" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/import_data/main.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="25" column="109" lean-forward="false" selection-start-line="25" selection-start-column="109" selection-end-line="25" selection-end-column="109" />
-              <folding />
+            <state relative-caret-position="305">
+              <caret line="3557" column="20" lean-forward="false" selection-start-line="3557" selection-start-column="12" selection-end-line="3557" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+                <marker date="1524694204315" expanded="true" signature="36428:36560" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,67 +283,58 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/import_data/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="229" column="7" lean-forward="false" selection-start-line="229" selection-start-column="4" selection-end-line="229" selection-end-column="7" />
+            <state relative-caret-position="305">
+              <caret line="240" column="7" lean-forward="false" selection-start-line="240" selection-start-column="4" selection-end-line="240" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navbar.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/navbar.html">
+      <file leaf-file-name="resume.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/re_data/resume.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="101" column="34" lean-forward="false" selection-start-line="101" selection-start-column="34" selection-end-line="101" selection-end-column="34" />
+            <state relative-caret-position="385">
+              <caret line="170" column="12" lean-forward="false" selection-start-line="170" selection-start-column="12" selection-end-line="170" selection-end-column="12" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#6;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#6;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#6;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#7;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#7;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#7;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#8;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#8;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#8;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
+                <element signature="e#564#682#0#HTML" expanded="true" />
+                <element signature="e#709#744#0#HTML" expanded="true" />
+                <element signature="e#782#900#0#HTML" expanded="true" />
+                <element signature="e#941#998#0#HTML" expanded="true" />
+                <element signature="e#1217#1244#0#HTML" expanded="true" />
+                <element signature="e#1337#1358#0#HTML" expanded="true" />
+                <element signature="e#1441#1460#0#HTML" expanded="true" />
+                <element signature="e#2210#2237#0#HTML" expanded="true" />
+                <element signature="e#2341#2362#0#HTML" expanded="true" />
+                <element signature="e#2449#2468#0#HTML" expanded="true" />
+                <element signature="e#4203#4230#0#HTML" expanded="true" />
+                <element signature="e#4337#4358#0#HTML" expanded="true" />
+                <element signature="e#4441#4460#0#HTML" expanded="true" />
+                <element signature="e#6216#6243#0#HTML" expanded="true" />
+                <element signature="e#6347#6368#0#HTML" expanded="true" />
+                <element signature="e#6446#6465#0#HTML" expanded="true" />
+                <element signature="e#7195#7236#0#HTML" expanded="true" />
+                <element signature="e#7461#7561#0#HTML" expanded="true" />
+                <element signature="e#7606#7703#0#HTML" expanded="true" />
+                <element signature="e#7752#7778#0#HTML" expanded="true" />
+                <element signature="e#7813#7975#0#HTML" expanded="true" />
+                <element signature="e#9011#9037#0#HTML" expanded="true" />
+                <element signature="e#9080#9261#0#HTML" expanded="true" />
+                <element signature="e#9359#9381#0#HTML" expanded="true" />
+                <element signature="e#9468#9491#0#HTML" expanded="true" />
+                <element signature="e#9594#9616#0#HTML" expanded="true" />
+                <element signature="e#9701#9724#0#HTML" expanded="true" />
+                <marker date="1524694358798" expanded="true" signature="483:10082" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <file leaf-file-name="mod_for_date_create.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CRM_panel/templates/projects/mod_for_date_create.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="119">
+              <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/import_data/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="115" column="85" lean-forward="false" selection-start-line="115" selection-start-column="85" selection-end-line="115" selection-end-column="85" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -138,10 +343,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>form</find>
-      <find>form method=&quot;POST&quot;</find>
-      <find>Inlines_EB_Data_Link</find>
-      <find>EB_Session</find>
       <find>dateutil.parser.parse</find>
       <find>len_list_for_save</find>
       <find>Boo</find>
@@ -159,6 +360,19 @@
       <find>Максимальный показатель получения прибыли имеют следующие дни недели:</find>
       <find>Вариант решения поставленной задачи</find>
       <find>list_all_max_time_1_2</find>
+      <find>Inlines_Resume_Day_Week_Dont_Win</find>
+      <find>Resume_Day_Week_Dont_Win</find>
+      <find>dict()</find>
+      <find>app = EB_App.objects.get(id=84)</find>
+      <find>app = EB_App.objects.get(id=85)</find>
+      <find>app = EB_App.objects.get(id=87)</find>
+      <find>app = EB_App.objects.get(id=88)</find>
+      <find>app = EB_App.objects.get(id=89)</find>
+      <find>app = EB_App.objects.get(id=90)</find>
+      <find>app = EB_App.objects.get(id=91)</find>
+      <find>form</find>
+      <find>Resume_Hour_Win</find>
+      <find>calen</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -174,22 +388,23 @@
         <option value="$PROJECT_DIR$/templates/import_data/project.html" />
         <option value="$PROJECT_DIR$/templates/re_data/project.html" />
         <option value="$PROJECT_DIR$/templates/import_data/project — копия.html" />
-        <option value="$PROJECT_DIR$/import_data/admin.py" />
         <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/import_data/urls.py" />
         <option value="$PROJECT_DIR$/templates/import_data/import_data_prime.html" />
+        <option value="$PROJECT_DIR$/templates/import_data/main.html" />
+        <option value="$PROJECT_DIR$/import_data/urls.py" />
         <option value="$PROJECT_DIR$/templates/navbar.html" />
+        <option value="$PROJECT_DIR$/import_data/admin.py" />
+        <option value="$PROJECT_DIR$/templates/re_data/jigsawpuzzle.html" />
+        <option value="$PROJECT_DIR$/templates/re_data/photoshare.html" />
+        <option value="$PROJECT_DIR$/templates/re_data/airhockey.html" />
+        <option value="$PROJECT_DIR$/templates/re_data/wallpapers.html" />
+        <option value="$PROJECT_DIR$/templates/re_data/paint.html" />
+        <option value="$PROJECT_DIR$/templates/re_data/memory.html" />
+        <option value="$PROJECT_DIR$/templates/re_data/news.html" />
+        <option value="$PROJECT_DIR$/templates/re_data/restaurant.html" />
         <option value="$PROJECT_DIR$/import_data/models.py" />
         <option value="$PROJECT_DIR$/import_data/views.py" />
-        <option value="$PROJECT_DIR$/templates/import_data/main.html" />
-        <option value="$PROJECT_DIR$/templates/re_data/restaurant.html" />
-        <option value="$PROJECT_DIR$/templates/re_data/news.html" />
-        <option value="$PROJECT_DIR$/templates/re_data/memory.html" />
-        <option value="$PROJECT_DIR$/templates/re_data/paint.html" />
-        <option value="$PROJECT_DIR$/templates/re_data/wallpapers.html" />
-        <option value="$PROJECT_DIR$/templates/re_data/airhockey.html" />
-        <option value="$PROJECT_DIR$/templates/re_data/photoshare.html" />
-        <option value="$PROJECT_DIR$/templates/re_data/jigsawpuzzle.html" />
+        <option value="$PROJECT_DIR$/templates/re_data/resume.html" />
       </list>
     </option>
   </component>
@@ -199,7 +414,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="264" />
     <option name="y" value="243" />
     <option name="width" value="1079" />
@@ -221,8 +436,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -266,11 +479,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -331,27 +547,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28876406" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34157303" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2591687" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -366,13 +583,229 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/import_data/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="109" lean-forward="false" selection-start-line="25" selection-start-column="109" selection-end-line="25" selection-end-column="109" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/import_data/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3893">
+          <caret line="229" column="7" lean-forward="false" selection-start-line="229" selection-start-column="4" selection-end-line="229" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1717">
+          <caret line="101" column="34" lean-forward="false" selection-start-line="101" selection-start-column="34" selection-end-line="101" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#9;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/import_data/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1887">
+          <caret line="115" column="85" lean-forward="false" selection-start-line="115" selection-start-column="85" selection-end-line="115" selection-end-column="85" />
+          <folding>
+            <element signature="e#0#32#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/re_data/jigsawpuzzle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3791">
+          <caret line="223" column="22" lean-forward="false" selection-start-line="223" selection-start-column="22" selection-end-line="223" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../CRM_panel/CRM_panel/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="17" selection-end-column="77" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CRM_panel/CRM_panel/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="120" column="13" lean-forward="true" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CRM_panel/main/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CRM_panel/main/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/import_data/project — копия.html" />
+    <entry file="file://$PROJECT_DIR$/templates/import_data/project.html" />
+    <entry file="file://$PROJECT_DIR$/templates/re_data/project.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CRM_panel/main/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CRM_panel/login/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CRM_panel/projects/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="92" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CRM_panel/templates/projects/project.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="268" column="43" lean-forward="false" selection-start-line="268" selection-start-column="25" selection-end-line="268" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CRM_panel/templates/projects/fin_in_stat_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="282" column="40" lean-forward="false" selection-start-line="282" selection-start-column="40" selection-end-line="282" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CRM_panel/templates/projects/finacial.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CRM_panel/projects/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="27" column="56" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CRM_panel/templates/projects/mod_date_end_reload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="261" column="0" lean-forward="false" selection-start-line="261" selection-start-column="0" selection-end-line="321" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36-32/Lib/datetime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-563">
+          <caret line="1043" column="45" lean-forward="false" selection-start-line="1043" selection-start-column="39" selection-end-line="1043" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CRM_panel/projects/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop/products/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-918">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop/products/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CRM_panel/templates/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CRM_panel/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="30" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/import_data/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="25" column="109" lean-forward="false" selection-start-line="25" selection-start-column="109" selection-end-line="25" selection-end-column="109" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop/shop/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-363">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applic/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="128" column="1" lean-forward="false" selection-start-line="128" selection-start-column="1" selection-end-line="128" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applic/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -384,75 +817,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Applic/urls.py">
+    <entry file="file://$PROJECT_DIR$/import_data/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CRM_panel/CRM_panel/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="120" column="13" lean-forward="true" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Applic/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="115" column="15" lean-forward="true" selection-start-line="115" selection-start-column="15" selection-end-line="115" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CRM_panel/main/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CRM_panel/main/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="254">
+          <caret line="340" column="15" lean-forward="false" selection-start-line="340" selection-start-column="15" selection-end-line="340" selection-end-column="15" />
           <folding>
             <element signature="e#0#32#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/import_data/project — копия.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/import_data/project.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/re_data/project.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CRM_panel/main/models.py">
+    <entry file="file://$PROJECT_DIR$/re_data/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -460,552 +835,246 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../CRM_panel/login/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CRM_panel/projects/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="92" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CRM_panel/templates/projects/project.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="268" column="43" lean-forward="false" selection-start-line="268" selection-start-column="25" selection-end-line="268" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CRM_panel/templates/projects/fin_in_stat_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="282" column="40" lean-forward="false" selection-start-line="282" selection-start-column="40" selection-end-line="282" selection-end-column="106" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CRM_panel/templates/projects/finacial.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CRM_panel/projects/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="27" column="56" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CRM_panel/templates/projects/mod_date_end_reload.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="261" column="0" lean-forward="false" selection-start-line="261" selection-start-column="0" selection-end-line="321" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python36-32/Lib/datetime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-563">
-          <caret line="1043" column="45" lean-forward="false" selection-start-line="1043" selection-start-column="39" selection-end-line="1043" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CRM_panel/projects/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Shop/products/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-918">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Shop/products/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CRM_panel/templates/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CRM_panel/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="30" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/import_data/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="115" column="85" lean-forward="false" selection-start-line="115" selection-start-column="85" selection-end-line="115" selection-end-column="85" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/import_data/urls.py">
+    <entry file="file://$PROJECT_DIR$/../Applic_OLD/Applic_18_04_18_17_41/import_data/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="101" column="34" lean-forward="false" selection-start-line="101" selection-start-column="34" selection-end-line="101" selection-end-column="34" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#6;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#6;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#7;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#7;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#7;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#8;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#8;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#8;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/import_data/import_data_prime.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="47" lean-forward="false" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#1;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#1;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#form#0;n#div#1;n#div#1;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#2;n#div#1;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#form#0;n#div#2;n#div#1;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#form#0;n#div#0;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#2;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#2;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#3;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#3;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#4;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#4;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#5;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#5;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#6;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#6;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#7;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#7;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#8;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#8;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#9;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#9;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#10;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#10;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#11;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#11;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#12;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#12;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#13;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#13;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#14;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#14;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#15;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#15;n#div#2;n#!!top" expanded="false" />
-            <marker date="1524241236713" expanded="true" signature="1018:1997" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/import_data/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="229" column="7" lean-forward="false" selection-start-line="229" selection-start-column="4" selection-end-line="229" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/import_data/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="25" column="109" lean-forward="false" selection-start-line="25" selection-start-column="109" selection-end-line="25" selection-end-column="109" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/re_data/restaurant.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="227" selection-end-column="22" />
-          <folding>
-            <element signature="e#869#966#0#HTML" expanded="false" />
-            <element signature="e#1498#1524#0#HTML" expanded="false" />
-            <element signature="e#1555#1717#0#HTML" expanded="false" />
-            <element signature="e#2026#2052#0#HTML" expanded="false" />
-            <element signature="e#2091#2269#0#HTML" expanded="false" />
-            <element signature="e#2976#3002#0#HTML" expanded="false" />
-            <element signature="e#3033#3059#0#HTML" expanded="false" />
-            <element signature="e#3094#3256#0#HTML" expanded="false" />
-            <element signature="e#4606#4630#0#HTML" expanded="false" />
-            <element signature="e#4670#4689#0#HTML" expanded="false" />
-            <element signature="e#4921#4947#0#HTML" expanded="false" />
-            <element signature="e#4978#5123#0#HTML" expanded="false" />
-            <element signature="e#5159#5182#0#HTML" expanded="false" />
-            <element signature="e#5222#5245#0#HTML" expanded="false" />
-            <element signature="e#5320#5343#0#HTML" expanded="false" />
-            <element signature="e#5493#5516#0#HTML" expanded="false" />
-            <element signature="e#5659#5682#0#HTML" expanded="false" />
-            <element signature="e#5716#5734#0#HTML" expanded="false" />
-            <element signature="e#6223#6249#0#HTML" expanded="false" />
-            <element signature="e#6280#6425#0#HTML" expanded="false" />
-            <element signature="e#7704#7801#0#HTML" expanded="false" />
-            <element signature="e#7846#7872#0#HTML" expanded="false" />
-            <element signature="e#7903#8048#0#HTML" expanded="false" />
-            <element signature="e#8620#8646#0#HTML" expanded="false" />
-            <element signature="e#8681#8826#0#HTML" expanded="false" />
-            <element signature="e#9437#9461#0#HTML" expanded="false" />
-            <element signature="e#9501#9520#0#HTML" expanded="false" />
-            <element signature="e#9752#9778#0#HTML" expanded="false" />
-            <element signature="e#9809#9954#0#HTML" expanded="false" />
-            <element signature="e#9990#10013#0#HTML" expanded="false" />
-            <element signature="e#10053#10076#0#HTML" expanded="false" />
-            <element signature="e#10151#10174#0#HTML" expanded="false" />
-            <element signature="e#10324#10347#0#HTML" expanded="false" />
-            <element signature="e#10490#10513#0#HTML" expanded="false" />
-            <element signature="e#10547#10565#0#HTML" expanded="false" />
-            <element signature="e#10996#11031#0#HTML" expanded="false" />
-            <element signature="e#11068#11165#0#HTML" expanded="false" />
-            <element signature="e#11188#11245#0#HTML" expanded="false" />
-            <element signature="e#11414#11514#0#HTML" expanded="false" />
-            <element signature="e#11555#11652#0#HTML" expanded="false" />
-            <element signature="e#11697#11723#0#HTML" expanded="false" />
-            <element signature="e#11754#11899#0#HTML" expanded="false" />
-            <element signature="e#11935#11958#0#HTML" expanded="false" />
-            <element signature="e#12975#13074#0#HTML" expanded="false" />
-            <element signature="e#13115#13212#0#HTML" expanded="false" />
-            <element signature="e#13257#13283#0#HTML" expanded="false" />
-            <element signature="e#13314#13459#0#HTML" expanded="false" />
-            <element signature="e#13495#13518#0#HTML" expanded="false" />
-            <element signature="e#14725#14749#0#HTML" expanded="false" />
-            <element signature="e#14789#14808#0#HTML" expanded="false" />
-            <element signature="e#15041#15067#0#HTML" expanded="false" />
-            <element signature="e#15098#15243#0#HTML" expanded="false" />
-            <element signature="e#15279#15302#0#HTML" expanded="false" />
-            <element signature="e#15342#15365#0#HTML" expanded="false" />
-            <element signature="e#15440#15463#0#HTML" expanded="false" />
-            <element signature="e#15613#15636#0#HTML" expanded="false" />
-            <element signature="e#15779#15802#0#HTML" expanded="false" />
-            <element signature="e#15836#15854#0#HTML" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/re_data/news.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="223" column="22" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="223" selection-end-column="22" />
-          <folding>
-            <element signature="e#863#960#0#HTML" expanded="true" />
-            <element signature="e#1492#1518#0#HTML" expanded="true" />
-            <element signature="e#1549#1711#0#HTML" expanded="true" />
-            <element signature="e#2020#2046#0#HTML" expanded="true" />
-            <element signature="e#2085#2263#0#HTML" expanded="true" />
-            <element signature="e#2970#2996#0#HTML" expanded="true" />
-            <element signature="e#3027#3053#0#HTML" expanded="true" />
-            <element signature="e#3088#3250#0#HTML" expanded="true" />
-            <element signature="e#4600#4624#0#HTML" expanded="true" />
-            <element signature="e#4664#4683#0#HTML" expanded="true" />
-            <element signature="e#4915#4941#0#HTML" expanded="true" />
-            <element signature="e#4972#5117#0#HTML" expanded="true" />
-            <element signature="e#5153#5176#0#HTML" expanded="true" />
-            <element signature="e#5216#5239#0#HTML" expanded="true" />
-            <element signature="e#5314#5337#0#HTML" expanded="true" />
-            <element signature="e#5487#5510#0#HTML" expanded="true" />
-            <element signature="e#5653#5676#0#HTML" expanded="true" />
-            <element signature="e#5710#5728#0#HTML" expanded="true" />
-            <element signature="e#6217#6243#0#HTML" expanded="true" />
-            <element signature="e#6274#6419#0#HTML" expanded="true" />
-            <element signature="e#7698#7795#0#HTML" expanded="true" />
-            <element signature="e#7840#7866#0#HTML" expanded="true" />
-            <element signature="e#7897#8042#0#HTML" expanded="true" />
-            <element signature="e#8614#8640#0#HTML" expanded="true" />
-            <element signature="e#8675#8820#0#HTML" expanded="true" />
-            <element signature="e#9431#9455#0#HTML" expanded="true" />
-            <element signature="e#9495#9514#0#HTML" expanded="true" />
-            <element signature="e#9746#9772#0#HTML" expanded="true" />
-            <element signature="e#9803#9948#0#HTML" expanded="true" />
-            <element signature="e#9984#10007#0#HTML" expanded="true" />
-            <element signature="e#10047#10070#0#HTML" expanded="true" />
-            <element signature="e#10145#10168#0#HTML" expanded="true" />
-            <element signature="e#10318#10341#0#HTML" expanded="true" />
-            <element signature="e#10484#10507#0#HTML" expanded="true" />
-            <element signature="e#10541#10559#0#HTML" expanded="true" />
-            <element signature="e#10989#11024#0#HTML" expanded="true" />
-            <element signature="e#11061#11158#0#HTML" expanded="true" />
-            <element signature="e#11181#11238#0#HTML" expanded="true" />
-            <element signature="e#11407#11507#0#HTML" expanded="true" />
-            <element signature="e#11548#11645#0#HTML" expanded="true" />
-            <element signature="e#11690#11716#0#HTML" expanded="true" />
-            <element signature="e#11747#11892#0#HTML" expanded="true" />
-            <element signature="e#11928#11951#0#HTML" expanded="true" />
-            <element signature="e#12968#13067#0#HTML" expanded="true" />
-            <element signature="e#13108#13205#0#HTML" expanded="true" />
-            <element signature="e#13250#13276#0#HTML" expanded="true" />
-            <element signature="e#13307#13452#0#HTML" expanded="true" />
-            <element signature="e#13488#13511#0#HTML" expanded="true" />
-            <element signature="e#14718#14742#0#HTML" expanded="true" />
-            <element signature="e#14782#14801#0#HTML" expanded="true" />
-            <element signature="e#15033#15059#0#HTML" expanded="true" />
-            <element signature="e#15090#15235#0#HTML" expanded="true" />
-            <element signature="e#15271#15294#0#HTML" expanded="true" />
-            <element signature="e#15334#15357#0#HTML" expanded="true" />
-            <element signature="e#15432#15455#0#HTML" expanded="true" />
-            <element signature="e#15605#15628#0#HTML" expanded="true" />
-            <element signature="e#15771#15794#0#HTML" expanded="true" />
-            <element signature="e#15828#15846#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/re_data/memory.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="223" column="22" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="223" selection-end-column="22" />
-          <folding>
-            <element signature="e#865#962#0#HTML" expanded="true" />
-            <element signature="e#1494#1520#0#HTML" expanded="true" />
-            <element signature="e#1551#1713#0#HTML" expanded="true" />
-            <element signature="e#2022#2048#0#HTML" expanded="true" />
-            <element signature="e#2087#2265#0#HTML" expanded="true" />
-            <element signature="e#2972#2998#0#HTML" expanded="true" />
-            <element signature="e#3029#3055#0#HTML" expanded="true" />
-            <element signature="e#3090#3252#0#HTML" expanded="true" />
-            <element signature="e#4602#4626#0#HTML" expanded="true" />
-            <element signature="e#4666#4685#0#HTML" expanded="true" />
-            <element signature="e#4917#4943#0#HTML" expanded="true" />
-            <element signature="e#4974#5119#0#HTML" expanded="true" />
-            <element signature="e#5155#5178#0#HTML" expanded="true" />
-            <element signature="e#5218#5241#0#HTML" expanded="true" />
-            <element signature="e#5316#5339#0#HTML" expanded="true" />
-            <element signature="e#5489#5512#0#HTML" expanded="true" />
-            <element signature="e#5655#5678#0#HTML" expanded="true" />
-            <element signature="e#5712#5730#0#HTML" expanded="true" />
-            <element signature="e#6219#6245#0#HTML" expanded="true" />
-            <element signature="e#6276#6421#0#HTML" expanded="true" />
-            <element signature="e#7700#7797#0#HTML" expanded="true" />
-            <element signature="e#7842#7868#0#HTML" expanded="true" />
-            <element signature="e#7899#8044#0#HTML" expanded="true" />
-            <element signature="e#8616#8642#0#HTML" expanded="true" />
-            <element signature="e#8677#8822#0#HTML" expanded="true" />
-            <element signature="e#9433#9457#0#HTML" expanded="true" />
-            <element signature="e#9497#9516#0#HTML" expanded="true" />
-            <element signature="e#9748#9774#0#HTML" expanded="true" />
-            <element signature="e#9805#9950#0#HTML" expanded="true" />
-            <element signature="e#9986#10009#0#HTML" expanded="true" />
-            <element signature="e#10049#10072#0#HTML" expanded="true" />
-            <element signature="e#10147#10170#0#HTML" expanded="true" />
-            <element signature="e#10320#10343#0#HTML" expanded="true" />
-            <element signature="e#10486#10509#0#HTML" expanded="true" />
-            <element signature="e#10543#10561#0#HTML" expanded="true" />
-            <element signature="e#10991#11026#0#HTML" expanded="true" />
-            <element signature="e#11063#11160#0#HTML" expanded="true" />
-            <element signature="e#11183#11240#0#HTML" expanded="true" />
-            <element signature="e#11409#11509#0#HTML" expanded="true" />
-            <element signature="e#11550#11647#0#HTML" expanded="true" />
-            <element signature="e#11692#11718#0#HTML" expanded="true" />
-            <element signature="e#11749#11894#0#HTML" expanded="true" />
-            <element signature="e#11930#11953#0#HTML" expanded="true" />
-            <element signature="e#12970#13069#0#HTML" expanded="true" />
-            <element signature="e#13110#13207#0#HTML" expanded="true" />
-            <element signature="e#13252#13278#0#HTML" expanded="true" />
-            <element signature="e#13309#13454#0#HTML" expanded="true" />
-            <element signature="e#13490#13513#0#HTML" expanded="true" />
-            <element signature="e#14720#14744#0#HTML" expanded="true" />
-            <element signature="e#14784#14803#0#HTML" expanded="true" />
-            <element signature="e#15035#15061#0#HTML" expanded="true" />
-            <element signature="e#15092#15237#0#HTML" expanded="true" />
-            <element signature="e#15273#15296#0#HTML" expanded="true" />
-            <element signature="e#15336#15359#0#HTML" expanded="true" />
-            <element signature="e#15434#15457#0#HTML" expanded="true" />
-            <element signature="e#15607#15630#0#HTML" expanded="true" />
-            <element signature="e#15773#15796#0#HTML" expanded="true" />
-            <element signature="e#15830#15848#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/re_data/paint.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-          <folding>
-            <element signature="e#864#961#0#HTML" expanded="true" />
-            <element signature="e#1493#1519#0#HTML" expanded="true" />
-            <element signature="e#1550#1712#0#HTML" expanded="true" />
-            <element signature="e#2021#2047#0#HTML" expanded="true" />
-            <element signature="e#2086#2264#0#HTML" expanded="true" />
-            <element signature="e#2971#2997#0#HTML" expanded="true" />
-            <element signature="e#3028#3054#0#HTML" expanded="true" />
-            <element signature="e#3089#3251#0#HTML" expanded="true" />
-            <element signature="e#4601#4625#0#HTML" expanded="true" />
-            <element signature="e#4665#4684#0#HTML" expanded="true" />
-            <element signature="e#4916#4942#0#HTML" expanded="true" />
-            <element signature="e#4973#5118#0#HTML" expanded="true" />
-            <element signature="e#5154#5177#0#HTML" expanded="true" />
-            <element signature="e#5217#5240#0#HTML" expanded="true" />
-            <element signature="e#5315#5338#0#HTML" expanded="true" />
-            <element signature="e#5488#5511#0#HTML" expanded="true" />
-            <element signature="e#5654#5677#0#HTML" expanded="true" />
-            <element signature="e#5711#5729#0#HTML" expanded="true" />
-            <element signature="e#6218#6244#0#HTML" expanded="true" />
-            <element signature="e#6275#6420#0#HTML" expanded="true" />
-            <element signature="e#7699#7796#0#HTML" expanded="true" />
-            <element signature="e#7841#7867#0#HTML" expanded="true" />
-            <element signature="e#7898#8043#0#HTML" expanded="true" />
-            <element signature="e#8615#8641#0#HTML" expanded="true" />
-            <element signature="e#8676#8821#0#HTML" expanded="true" />
-            <element signature="e#9432#9456#0#HTML" expanded="true" />
-            <element signature="e#9496#9515#0#HTML" expanded="true" />
-            <element signature="e#9747#9773#0#HTML" expanded="true" />
-            <element signature="e#9804#9949#0#HTML" expanded="true" />
-            <element signature="e#9985#10008#0#HTML" expanded="true" />
-            <element signature="e#10048#10071#0#HTML" expanded="true" />
-            <element signature="e#10146#10169#0#HTML" expanded="true" />
-            <element signature="e#10319#10342#0#HTML" expanded="true" />
-            <element signature="e#10485#10508#0#HTML" expanded="true" />
-            <element signature="e#10542#10560#0#HTML" expanded="true" />
-            <element signature="e#10990#11025#0#HTML" expanded="true" />
-            <element signature="e#11062#11159#0#HTML" expanded="true" />
-            <element signature="e#11182#11239#0#HTML" expanded="true" />
-            <element signature="e#11408#11508#0#HTML" expanded="true" />
-            <element signature="e#11549#11646#0#HTML" expanded="true" />
-            <element signature="e#11691#11717#0#HTML" expanded="true" />
-            <element signature="e#11748#11893#0#HTML" expanded="true" />
-            <element signature="e#11929#11952#0#HTML" expanded="true" />
-            <element signature="e#12969#13068#0#HTML" expanded="true" />
-            <element signature="e#13109#13206#0#HTML" expanded="true" />
-            <element signature="e#13251#13277#0#HTML" expanded="true" />
-            <element signature="e#13308#13453#0#HTML" expanded="true" />
-            <element signature="e#13489#13512#0#HTML" expanded="true" />
-            <element signature="e#14719#14743#0#HTML" expanded="true" />
-            <element signature="e#14783#14802#0#HTML" expanded="true" />
-            <element signature="e#15034#15060#0#HTML" expanded="true" />
-            <element signature="e#15091#15236#0#HTML" expanded="true" />
-            <element signature="e#15272#15295#0#HTML" expanded="true" />
-            <element signature="e#15335#15358#0#HTML" expanded="true" />
-            <element signature="e#15433#15456#0#HTML" expanded="true" />
-            <element signature="e#15606#15629#0#HTML" expanded="true" />
-            <element signature="e#15772#15795#0#HTML" expanded="true" />
-            <element signature="e#15829#15847#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/re_data/wallpapers.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="223" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/import_data/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="1091" column="51" lean-forward="false" selection-start-line="1091" selection-start-column="51" selection-end-line="1091" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-            <marker date="1524345043483" expanded="true" signature="36330:36462" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/re_data/airhockey.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="223" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/re_data/photoshare.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="223" selection-end-column="22" />
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/re_data/jigsawpuzzle.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="223" column="22" lean-forward="false" selection-start-line="223" selection-start-column="22" selection-end-line="223" selection-end-column="22" />
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="265" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#span#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#form#0;n#span#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#span#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#span#0;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#form#0;n#span#0;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#span#0;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/re_data/photoshare.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="265" column="6" lean-forward="false" selection-start-line="265" selection-start-column="6" selection-end-line="265" selection-end-column="6" />
+          <folding>
+            <element signature="e#4979#5124#0#HTML" expanded="false" />
+            <element signature="e#5160#5183#0#HTML" expanded="false" />
+            <element signature="e#5606#5664#0#HTML" expanded="false" />
+            <element signature="e#5715#5738#0#HTML" expanded="false" />
+            <element signature="e#5881#5904#0#HTML" expanded="false" />
+            <element signature="e#11494#11639#0#HTML" expanded="false" />
+            <element signature="e#11675#11698#0#HTML" expanded="false" />
+            <element signature="e#12121#12179#0#HTML" expanded="false" />
+            <element signature="e#12230#12253#0#HTML" expanded="false" />
+            <element signature="e#12396#12419#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/re_data/airhockey.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="265" column="6" lean-forward="false" selection-start-line="265" selection-start-column="6" selection-end-line="265" selection-end-column="6" />
+          <folding>
+            <element signature="e#4978#5123#0#HTML" expanded="false" />
+            <element signature="e#5159#5182#0#HTML" expanded="false" />
+            <element signature="e#5605#5663#0#HTML" expanded="false" />
+            <element signature="e#5714#5737#0#HTML" expanded="false" />
+            <element signature="e#5880#5903#0#HTML" expanded="false" />
+            <element signature="e#11493#11638#0#HTML" expanded="false" />
+            <element signature="e#11674#11697#0#HTML" expanded="false" />
+            <element signature="e#12120#12178#0#HTML" expanded="false" />
+            <element signature="e#12229#12252#0#HTML" expanded="false" />
+            <element signature="e#12395#12418#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/re_data/paint.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="265" column="6" lean-forward="false" selection-start-line="265" selection-start-column="6" selection-end-line="265" selection-end-column="6" />
+          <folding>
+            <element signature="e#4974#5119#0#HTML" expanded="false" />
+            <element signature="e#5155#5178#0#HTML" expanded="false" />
+            <element signature="e#5601#5659#0#HTML" expanded="false" />
+            <element signature="e#5710#5733#0#HTML" expanded="false" />
+            <element signature="e#5876#5899#0#HTML" expanded="false" />
+            <element signature="e#11489#11634#0#HTML" expanded="false" />
+            <element signature="e#11670#11693#0#HTML" expanded="false" />
+            <element signature="e#12116#12174#0#HTML" expanded="false" />
+            <element signature="e#12225#12248#0#HTML" expanded="false" />
+            <element signature="e#12391#12414#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/re_data/memory.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="265" column="6" lean-forward="false" selection-start-line="265" selection-start-column="6" selection-end-line="265" selection-end-column="6" />
+          <folding>
+            <element signature="e#4975#5120#0#HTML" expanded="false" />
+            <element signature="e#5156#5179#0#HTML" expanded="false" />
+            <element signature="e#5602#5660#0#HTML" expanded="false" />
+            <element signature="e#5711#5734#0#HTML" expanded="false" />
+            <element signature="e#5877#5900#0#HTML" expanded="false" />
+            <element signature="e#11490#11635#0#HTML" expanded="false" />
+            <element signature="e#11671#11694#0#HTML" expanded="false" />
+            <element signature="e#12117#12175#0#HTML" expanded="false" />
+            <element signature="e#12226#12249#0#HTML" expanded="false" />
+            <element signature="e#12392#12415#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/re_data/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="265" column="6" lean-forward="false" selection-start-line="265" selection-start-column="6" selection-end-line="265" selection-end-column="6" />
+          <folding>
+            <element signature="e#4973#5118#0#HTML" expanded="false" />
+            <element signature="e#5154#5177#0#HTML" expanded="false" />
+            <element signature="e#5600#5658#0#HTML" expanded="false" />
+            <element signature="e#5709#5732#0#HTML" expanded="false" />
+            <element signature="e#5875#5898#0#HTML" expanded="false" />
+            <element signature="e#11488#11633#0#HTML" expanded="false" />
+            <element signature="e#11669#11692#0#HTML" expanded="false" />
+            <element signature="e#12115#12173#0#HTML" expanded="false" />
+            <element signature="e#12224#12247#0#HTML" expanded="false" />
+            <element signature="e#12390#12413#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/re_data/restaurant.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="265" column="6" lean-forward="false" selection-start-line="265" selection-start-column="6" selection-end-line="265" selection-end-column="6" />
+          <folding>
+            <element signature="e#4979#5124#0#HTML" expanded="false" />
+            <element signature="e#5160#5183#0#HTML" expanded="false" />
+            <element signature="e#5606#5664#0#HTML" expanded="false" />
+            <element signature="e#5715#5738#0#HTML" expanded="false" />
+            <element signature="e#5881#5904#0#HTML" expanded="false" />
+            <element signature="e#11494#11639#0#HTML" expanded="false" />
+            <element signature="e#11675#11698#0#HTML" expanded="false" />
+            <element signature="e#12121#12179#0#HTML" expanded="false" />
+            <element signature="e#12230#12253#0#HTML" expanded="false" />
+            <element signature="e#12396#12419#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/import_data/import_data_prime.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="21" column="57" lean-forward="true" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#9;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/import_data/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/re_data/wallpapers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="85" column="121" lean-forward="false" selection-start-line="85" selection-start-column="56" selection-end-line="85" selection-end-column="121" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CRM_panel/templates/projects/mod_for_date_create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/import_data/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="240" column="7" lean-forward="false" selection-start-line="240" selection-start-column="4" selection-end-line="240" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/import_data/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="3557" column="20" lean-forward="false" selection-start-line="3557" selection-start-column="12" selection-end-line="3557" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+            <marker date="1524694204315" expanded="true" signature="36428:36560" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/re_data/resume.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="170" column="12" lean-forward="false" selection-start-line="170" selection-start-column="12" selection-end-line="170" selection-end-column="12" />
+          <folding>
+            <element signature="e#564#682#0#HTML" expanded="true" />
+            <element signature="e#709#744#0#HTML" expanded="true" />
+            <element signature="e#782#900#0#HTML" expanded="true" />
+            <element signature="e#941#998#0#HTML" expanded="true" />
+            <element signature="e#1217#1244#0#HTML" expanded="true" />
+            <element signature="e#1337#1358#0#HTML" expanded="true" />
+            <element signature="e#1441#1460#0#HTML" expanded="true" />
+            <element signature="e#2210#2237#0#HTML" expanded="true" />
+            <element signature="e#2341#2362#0#HTML" expanded="true" />
+            <element signature="e#2449#2468#0#HTML" expanded="true" />
+            <element signature="e#4203#4230#0#HTML" expanded="true" />
+            <element signature="e#4337#4358#0#HTML" expanded="true" />
+            <element signature="e#4441#4460#0#HTML" expanded="true" />
+            <element signature="e#6216#6243#0#HTML" expanded="true" />
+            <element signature="e#6347#6368#0#HTML" expanded="true" />
+            <element signature="e#6446#6465#0#HTML" expanded="true" />
+            <element signature="e#7195#7236#0#HTML" expanded="true" />
+            <element signature="e#7461#7561#0#HTML" expanded="true" />
+            <element signature="e#7606#7703#0#HTML" expanded="true" />
+            <element signature="e#7752#7778#0#HTML" expanded="true" />
+            <element signature="e#7813#7975#0#HTML" expanded="true" />
+            <element signature="e#9011#9037#0#HTML" expanded="true" />
+            <element signature="e#9080#9261#0#HTML" expanded="true" />
+            <element signature="e#9359#9381#0#HTML" expanded="true" />
+            <element signature="e#9468#9491#0#HTML" expanded="true" />
+            <element signature="e#9594#9616#0#HTML" expanded="true" />
+            <element signature="e#9701#9724#0#HTML" expanded="true" />
+            <marker date="1524694358798" expanded="true" signature="483:10082" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

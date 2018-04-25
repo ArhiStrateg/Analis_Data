@@ -2,7 +2,8 @@ from django.contrib import admin
 from import_data.models import EB_App, EB_Data_App, EF_App, EF_Orders, EF_Link_Data, EB_App_Ul, EB_Data_Link, EB_Place, EB_Session, \
     EB_Order, \
     New_EB_App_Ul, New_EB_Data_App, New_EB_Data_Link, New_EB_Place, New_EB_Session, New_EB_Order, New_EB_Sinhronisation, \
-    Active_Hour, Active_Day, Day_of_the_week
+    Active_Hour, Active_Day, Day_of_the_week, \
+    Resume_Day_Week_Win, Resume_Hour_Win, Resume_Day_Week_Dont_Win, Resume_Hour_Dont_Win
 
 
 class Inlines_EB_Order (admin.TabularInline):
@@ -80,6 +81,26 @@ class Inlines_New_EB_App_Ul (admin.TabularInline):
     extra = 0
 
 
+class Inlines_Resume_Day_Week_Win (admin.TabularInline):
+    model = Resume_Day_Week_Win
+    extra = 0
+
+
+class Inlines_Resume_Hour_Win (admin.TabularInline):
+    model = Resume_Hour_Win
+    extra = 0
+
+
+class Inlines_Resume_Day_Week_Dont_Win (admin.TabularInline):
+    model = Resume_Day_Week_Dont_Win
+    extra = 0
+
+
+class Inlines_Resume_Hour_Dont_Win (admin.TabularInline):
+    model = Resume_Hour_Dont_Win
+    extra = 0
+
+
 class Admin_EF_App (admin.ModelAdmin):
     list_display = [field.name for field in EF_App._meta.fields]
     inlines = []
@@ -113,7 +134,9 @@ admin.site.register(EF_Link_Data, Admin_EF_Link_Data)
 class Admin_EB_App (admin.ModelAdmin):
     list_display = [field.name for field in EB_App._meta.fields]
     inlines = [Inlines_EB_Data_App, Inlines_EB_App_Ul, Inlines_EB_Data_Link, Inlines_New_EB_Data_App, Inlines_New_EB_App_Ul,
-               Inlines_New_EB_Data_Link, Inlines_Active_Hour, Inlines_Day_of_the_week]
+               Inlines_New_EB_Data_Link, Inlines_Active_Hour, Inlines_Day_of_the_week,
+               Inlines_Resume_Day_Week_Win, Inlines_Resume_Hour_Win,
+               Inlines_Resume_Day_Week_Dont_Win, Inlines_Resume_Hour_Dont_Win]
 
     class Meta:
         model = EB_App
@@ -281,4 +304,41 @@ class Admin_Active_Hour(admin.ModelAdmin):
 admin.site.register(Active_Hour, Admin_Active_Hour)
 
 
+class Admin_Resume_Day_Week_Win(admin.ModelAdmin):
+    list_display = [field.name for field in Resume_Day_Week_Win._meta.fields]
+    inlines = [Inlines_Resume_Hour_Win]
 
+    class Meta:
+        model = Resume_Day_Week_Win
+
+admin.site.register(Resume_Day_Week_Win, Admin_Resume_Day_Week_Win)
+
+
+class Admin_Resume_Hour_Win(admin.ModelAdmin):
+    list_display = [field.name for field in Resume_Hour_Win._meta.fields]
+    inlines = []
+
+    class Meta:
+        model = Resume_Hour_Win
+
+admin.site.register(Resume_Hour_Win, Admin_Resume_Hour_Win)
+
+
+class Admin_Resume_Day_Week_Dont_Win(admin.ModelAdmin):
+    list_display = [field.name for field in Resume_Day_Week_Dont_Win._meta.fields]
+    inlines = [Inlines_Resume_Hour_Dont_Win]
+
+    class Meta:
+        model = Resume_Day_Week_Dont_Win
+
+admin.site.register(Resume_Day_Week_Dont_Win, Admin_Resume_Day_Week_Dont_Win)
+
+
+class Admin_Resume_Hour_Dont_Win(admin.ModelAdmin):
+    list_display = [field.name for field in Resume_Hour_Dont_Win._meta.fields]
+    inlines = []
+
+    class Meta:
+        model = Resume_Hour_Dont_Win
+
+admin.site.register(Resume_Hour_Dont_Win, Admin_Resume_Hour_Dont_Win)

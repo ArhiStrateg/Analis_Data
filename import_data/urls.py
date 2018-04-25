@@ -1,6 +1,6 @@
 from django.conf.urls import url
 from import_data.views import import_data_prime, main, restaurant, news, memory, paint, wallpapers, airhockey, photoshare, \
-    jigsawpuzzle
+    jigsawpuzzle, resume
 
 
 urlpatterns = [
@@ -15,4 +15,5 @@ urlpatterns = [
     url(r'^airhockey/$', airhockey, name='airhockey'),
     url(r'^photoshare/$', photoshare, name='photoshare'),
     url(r'^jigsawpuzzle/$', jigsawpuzzle, name='jigsawpuzzle'),
+    url(r'^resume/$', resume, name='resume'),
 ]

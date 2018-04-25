@@ -2,7 +2,9 @@ from django.shortcuts import render, redirect
 from import_data.models import EF_App, EF_Orders, EF_Link_Data, EB_App, EB_Data_App, EB_App_Ul, EB_Data_Link, EB_Place, EB_Session,\
     EB_Order, \
     New_EB_App_Ul, New_EB_Data_App, New_EB_Data_Link, New_EB_Place, New_EB_Session, New_EB_Order, New_EB_Sinhronisation, \
-    Active_Hour, Active_Day, Day_of_the_week
+    Active_Hour, Active_Day, Day_of_the_week, \
+    Resume_Day_Week_Win, Resume_Hour_Win, \
+    Resume_Day_Week_Dont_Win, Resume_Hour_Dont_Win
 
 
 import datetime as dt
@@ -1091,6 +1093,81 @@ def restaurant(request):
         ras_1_3 = round(result_summ_1_3 * 0.01)
         list_all_max_time_1_3.append(dict_for_save)
 
+    app = EB_App.objects.get(id=84)
+
+    if "save_result_win" in request.POST:
+        list_for_save_day = list()
+        for element in list_all_winer:
+            day = element["day_of_the_week"]
+            list_for_save_day.append(day)
+
+        list_for_save_hour = list()
+        for element in list_all_max_time_1_2:
+            start_time = element["start_time"]
+            end_time = element["end_time"]
+            sum_one = element["sum_one"]
+            srez_start = int(start_time[0:2])
+            srez_end = int(end_time[0:2])
+            dict_for_day = dict(start=srez_start, end=srez_end, sum_one=int(sum_one))
+            list_for_save_hour.append(dict_for_day)
+
+        for element in list_for_save_day:
+            if element == "Monday":
+                day_create = Resume_Day_Week_Win.objects.create(Monday_day=True, app=app)
+            if element == "Tuesday":
+                day_create = Resume_Day_Week_Win.objects.create(Tuesday_day=True, app=app)
+            if element == "Wednesday":
+                day_create = Resume_Day_Week_Win.objects.create(Wednesday_day=True, app=app)
+            if element == "Thursday":
+                day_create = Resume_Day_Week_Win.objects.create(Thursday_day=True, app=app)
+            if element == "Friday":
+                day_create = Resume_Day_Week_Win.objects.create(Friday_day=True, app=app)
+            if element == "Saturday":
+                day_create = Resume_Day_Week_Win.objects.create(Saturday_day=True, app=app)
+            if element == "Sunday":
+                day_create = Resume_Day_Week_Win.objects.create(Sunday_day=True, app=app)
+
+            for elem in list_for_save_hour:
+                hour_start = elem["start"]
+                hour_end = elem["end"]
+                sum_one = elem["sum_one"]
+                Resume_Hour_Win.objects.create(app=app, day=day_create, hour_start=hour_start, hour_end=hour_end, sum=int(sum_one))
+
+    if "save_result_dont_win" in request.POST:
+        list_for_save_day = list_all_day_week_dont_winner
+
+        list_for_save_hour = list()
+        for element in list_all_max_time_1_3:
+            start_time = element["start_time"]
+            end_time = element["end_time"]
+            sum_one = element["sum_one"]
+            srez_start = int(start_time[0:2])
+            srez_end = int(end_time[0:2])
+            dict_for_day = dict(start=srez_start, end=srez_end, sum_one=int(sum_one))
+            list_for_save_hour.append(dict_for_day)
+
+        for element in list_for_save_day:
+            if element == "Monday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Monday_day=True, app=app)
+            if element == "Tuesday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Tuesday_day=True, app=app)
+            if element == "Wednesday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Wednesday_day=True, app=app)
+            if element == "Thursday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Thursday_day=True, app=app)
+            if element == "Friday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Friday_day=True, app=app)
+            if element == "Saturday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Saturday_day=True, app=app)
+            if element == "Sunday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Sunday_day=True, app=app)
+
+            for elem in list_for_save_hour:
+                hour_start = elem["start"]
+                hour_end = elem["end"]
+                sum_one = elem["sum_one"]
+                Resume_Hour_Dont_Win.objects.create(app=app, day=day_create, hour_start=hour_start, hour_end=hour_end, sum=int(sum_one))
+
     return render(request, 're_data/restaurant.html', locals())
 
 
@@ -1344,6 +1421,81 @@ def news(request):
         sum_two_1_3 = round(result_summ_1_3 * 1.01)
         ras_1_3 = round(result_summ_1_3 * 0.01)
         list_all_max_time_1_3.append(dict_for_save)
+
+    app = EB_App.objects.get(id=85)
+
+    if "save_result_win" in request.POST:
+        list_for_save_day = list()
+        for element in list_all_winer:
+            day = element["day_of_the_week"]
+            list_for_save_day.append(day)
+
+        list_for_save_hour = list()
+        for element in list_all_max_time_1_2:
+            start_time = element["start_time"]
+            end_time = element["end_time"]
+            sum_one = element["sum_one"]
+            srez_start = int(start_time[0:2])
+            srez_end = int(end_time[0:2])
+            dict_for_day = dict(start=srez_start, end=srez_end, sum_one=int(sum_one))
+            list_for_save_hour.append(dict_for_day)
+
+        for element in list_for_save_day:
+            if element == "Monday":
+                day_create = Resume_Day_Week_Win.objects.create(Monday_day=True, app=app)
+            if element == "Tuesday":
+                day_create = Resume_Day_Week_Win.objects.create(Tuesday_day=True, app=app)
+            if element == "Wednesday":
+                day_create = Resume_Day_Week_Win.objects.create(Wednesday_day=True, app=app)
+            if element == "Thursday":
+                day_create = Resume_Day_Week_Win.objects.create(Thursday_day=True, app=app)
+            if element == "Friday":
+                day_create = Resume_Day_Week_Win.objects.create(Friday_day=True, app=app)
+            if element == "Saturday":
+                day_create = Resume_Day_Week_Win.objects.create(Saturday_day=True, app=app)
+            if element == "Sunday":
+                day_create = Resume_Day_Week_Win.objects.create(Sunday_day=True, app=app)
+
+            for elem in list_for_save_hour:
+                hour_start = elem["start"]
+                hour_end = elem["end"]
+                sum_one = elem["sum_one"]
+                Resume_Hour_Win.objects.create(app=app, day=day_create, hour_start=hour_start, hour_end=hour_end, sum=int(sum_one))
+
+    if "save_result_dont_win" in request.POST:
+        list_for_save_day = list_all_day_week_dont_winner
+
+        list_for_save_hour = list()
+        for element in list_all_max_time_1_3:
+            start_time = element["start_time"]
+            end_time = element["end_time"]
+            sum_one = element["sum_one"]
+            srez_start = int(start_time[0:2])
+            srez_end = int(end_time[0:2])
+            dict_for_day = dict(start=srez_start, end=srez_end, sum_one=int(sum_one))
+            list_for_save_hour.append(dict_for_day)
+
+        for element in list_for_save_day:
+            if element == "Monday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Monday_day=True, app=app)
+            if element == "Tuesday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Tuesday_day=True, app=app)
+            if element == "Wednesday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Wednesday_day=True, app=app)
+            if element == "Thursday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Thursday_day=True, app=app)
+            if element == "Friday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Friday_day=True, app=app)
+            if element == "Saturday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Saturday_day=True, app=app)
+            if element == "Sunday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Sunday_day=True, app=app)
+
+            for elem in list_for_save_hour:
+                hour_start = elem["start"]
+                hour_end = elem["end"]
+                sum_one = elem["sum_one"]
+                Resume_Hour_Dont_Win.objects.create(app=app, day=day_create, hour_start=hour_start, hour_end=hour_end, sum=int(sum_one))
 
     return render(request, 're_data/news.html', locals())
 
@@ -1599,6 +1751,81 @@ def memory(request):
         ras_1_3 = round(result_summ_1_3 * 0.01)
         list_all_max_time_1_3.append(dict_for_save)
 
+    app = EB_App.objects.get(id=86)
+
+    if "save_result_win" in request.POST:
+        list_for_save_day = list()
+        for element in list_all_winer:
+            day = element["day_of_the_week"]
+            list_for_save_day.append(day)
+
+        list_for_save_hour = list()
+        for element in list_all_max_time_1_2:
+            start_time = element["start_time"]
+            end_time = element["end_time"]
+            sum_one = element["sum_one"]
+            srez_start = int(start_time[0:2])
+            srez_end = int(end_time[0:2])
+            dict_for_day = dict(start=srez_start, end=srez_end, sum_one=int(sum_one))
+            list_for_save_hour.append(dict_for_day)
+
+        for element in list_for_save_day:
+            if element == "Monday":
+                day_create = Resume_Day_Week_Win.objects.create(Monday_day=True, app=app)
+            if element == "Tuesday":
+                day_create = Resume_Day_Week_Win.objects.create(Tuesday_day=True, app=app)
+            if element == "Wednesday":
+                day_create = Resume_Day_Week_Win.objects.create(Wednesday_day=True, app=app)
+            if element == "Thursday":
+                day_create = Resume_Day_Week_Win.objects.create(Thursday_day=True, app=app)
+            if element == "Friday":
+                day_create = Resume_Day_Week_Win.objects.create(Friday_day=True, app=app)
+            if element == "Saturday":
+                day_create = Resume_Day_Week_Win.objects.create(Saturday_day=True, app=app)
+            if element == "Sunday":
+                day_create = Resume_Day_Week_Win.objects.create(Sunday_day=True, app=app)
+
+            for elem in list_for_save_hour:
+                hour_start = elem["start"]
+                hour_end = elem["end"]
+                sum_one = elem["sum_one"]
+                Resume_Hour_Win.objects.create(app=app, day=day_create, hour_start=hour_start, hour_end=hour_end, sum=int(sum_one))
+
+    if "save_result_dont_win" in request.POST:
+        list_for_save_day = list_all_day_week_dont_winner
+
+        list_for_save_hour = list()
+        for element in list_all_max_time_1_3:
+            start_time = element["start_time"]
+            end_time = element["end_time"]
+            sum_one = element["sum_one"]
+            srez_start = int(start_time[0:2])
+            srez_end = int(end_time[0:2])
+            dict_for_day = dict(start=srez_start, end=srez_end, sum_one=int(sum_one))
+            list_for_save_hour.append(dict_for_day)
+
+        for element in list_for_save_day:
+            if element == "Monday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Monday_day=True, app=app)
+            if element == "Tuesday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Tuesday_day=True, app=app)
+            if element == "Wednesday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Wednesday_day=True, app=app)
+            if element == "Thursday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Thursday_day=True, app=app)
+            if element == "Friday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Friday_day=True, app=app)
+            if element == "Saturday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Saturday_day=True, app=app)
+            if element == "Sunday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Sunday_day=True, app=app)
+
+            for elem in list_for_save_hour:
+                hour_start = elem["start"]
+                hour_end = elem["end"]
+                sum_one = elem["sum_one"]
+                Resume_Hour_Dont_Win.objects.create(app=app, day=day_create, hour_start=hour_start, hour_end=hour_end, sum=int(sum_one))
+
     return render(request, 're_data/memory.html', locals())
 
 
@@ -1852,6 +2079,81 @@ def paint(request):
         sum_two_1_3 = round(result_summ_1_3 * 1.01)
         ras_1_3 = round(result_summ_1_3 * 0.01)
         list_all_max_time_1_3.append(dict_for_save)
+
+    app = EB_App.objects.get(id=87)
+
+    if "save_result_win" in request.POST:
+        list_for_save_day = list()
+        for element in list_all_winer:
+            day = element["day_of_the_week"]
+            list_for_save_day.append(day)
+
+        list_for_save_hour = list()
+        for element in list_all_max_time_1_2:
+            start_time = element["start_time"]
+            end_time = element["end_time"]
+            sum_one = element["sum_one"]
+            srez_start = int(start_time[0:2])
+            srez_end = int(end_time[0:2])
+            dict_for_day = dict(start=srez_start, end=srez_end, sum_one=int(sum_one))
+            list_for_save_hour.append(dict_for_day)
+
+        for element in list_for_save_day:
+            if element == "Monday":
+                day_create = Resume_Day_Week_Win.objects.create(Monday_day=True, app=app)
+            if element == "Tuesday":
+                day_create = Resume_Day_Week_Win.objects.create(Tuesday_day=True, app=app)
+            if element == "Wednesday":
+                day_create = Resume_Day_Week_Win.objects.create(Wednesday_day=True, app=app)
+            if element == "Thursday":
+                day_create = Resume_Day_Week_Win.objects.create(Thursday_day=True, app=app)
+            if element == "Friday":
+                day_create = Resume_Day_Week_Win.objects.create(Friday_day=True, app=app)
+            if element == "Saturday":
+                day_create = Resume_Day_Week_Win.objects.create(Saturday_day=True, app=app)
+            if element == "Sunday":
+                day_create = Resume_Day_Week_Win.objects.create(Sunday_day=True, app=app)
+
+            for elem in list_for_save_hour:
+                hour_start = elem["start"]
+                hour_end = elem["end"]
+                sum_one = elem["sum_one"]
+                Resume_Hour_Win.objects.create(app=app, day=day_create, hour_start=hour_start, hour_end=hour_end, sum=int(sum_one))
+
+    if "save_result_dont_win" in request.POST:
+        list_for_save_day = list_all_day_week_dont_winner
+
+        list_for_save_hour = list()
+        for element in list_all_max_time_1_3:
+            start_time = element["start_time"]
+            end_time = element["end_time"]
+            sum_one = element["sum_one"]
+            srez_start = int(start_time[0:2])
+            srez_end = int(end_time[0:2])
+            dict_for_day = dict(start=srez_start, end=srez_end, sum_one=int(sum_one))
+            list_for_save_hour.append(dict_for_day)
+
+        for element in list_for_save_day:
+            if element == "Monday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Monday_day=True, app=app)
+            if element == "Tuesday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Tuesday_day=True, app=app)
+            if element == "Wednesday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Wednesday_day=True, app=app)
+            if element == "Thursday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Thursday_day=True, app=app)
+            if element == "Friday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Friday_day=True, app=app)
+            if element == "Saturday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Saturday_day=True, app=app)
+            if element == "Sunday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Sunday_day=True, app=app)
+
+            for elem in list_for_save_hour:
+                hour_start = elem["start"]
+                hour_end = elem["end"]
+                sum_one = elem["sum_one"]
+                Resume_Hour_Dont_Win.objects.create(app=app, day=day_create, hour_start=hour_start, hour_end=hour_end, sum=int(sum_one))
 
     return render(request, 're_data/paint.html', locals())
 
@@ -2107,6 +2409,81 @@ def wallpapers(request):
         ras_1_3 = round(result_summ_1_3 * 0.01)
         list_all_max_time_1_3.append(dict_for_save)
 
+    app = EB_App.objects.get(id=88)
+
+    if "save_result_win" in request.POST:
+        list_for_save_day = list()
+        for element in list_all_winer:
+            day = element["day_of_the_week"]
+            list_for_save_day.append(day)
+
+        list_for_save_hour = list()
+        for element in list_all_max_time_1_2:
+            start_time = element["start_time"]
+            end_time = element["end_time"]
+            sum_one = element["sum_one"]
+            srez_start = int(start_time[0:2])
+            srez_end = int(end_time[0:2])
+            dict_for_day = dict(start=srez_start, end=srez_end, sum_one=int(sum_one))
+            list_for_save_hour.append(dict_for_day)
+
+        for element in list_for_save_day:
+            if element == "Monday":
+                day_create = Resume_Day_Week_Win.objects.create(Monday_day=True, app=app)
+            if element == "Tuesday":
+                day_create = Resume_Day_Week_Win.objects.create(Tuesday_day=True, app=app)
+            if element == "Wednesday":
+                day_create = Resume_Day_Week_Win.objects.create(Wednesday_day=True, app=app)
+            if element == "Thursday":
+                day_create = Resume_Day_Week_Win.objects.create(Thursday_day=True, app=app)
+            if element == "Friday":
+                day_create = Resume_Day_Week_Win.objects.create(Friday_day=True, app=app)
+            if element == "Saturday":
+                day_create = Resume_Day_Week_Win.objects.create(Saturday_day=True, app=app)
+            if element == "Sunday":
+                day_create = Resume_Day_Week_Win.objects.create(Sunday_day=True, app=app)
+
+            for elem in list_for_save_hour:
+                hour_start = elem["start"]
+                hour_end = elem["end"]
+                sum_one = elem["sum_one"]
+                Resume_Hour_Win.objects.create(app=app, day=day_create, hour_start=hour_start, hour_end=hour_end, sum=int(sum_one))
+
+    if "save_result_dont_win" in request.POST:
+        list_for_save_day = list_all_day_week_dont_winner
+
+        list_for_save_hour = list()
+        for element in list_all_max_time_1_3:
+            start_time = element["start_time"]
+            end_time = element["end_time"]
+            sum_one = element["sum_one"]
+            srez_start = int(start_time[0:2])
+            srez_end = int(end_time[0:2])
+            dict_for_day = dict(start=srez_start, end=srez_end, sum_one=int(sum_one))
+            list_for_save_hour.append(dict_for_day)
+
+        for element in list_for_save_day:
+            if element == "Monday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Monday_day=True, app=app)
+            if element == "Tuesday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Tuesday_day=True, app=app)
+            if element == "Wednesday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Wednesday_day=True, app=app)
+            if element == "Thursday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Thursday_day=True, app=app)
+            if element == "Friday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Friday_day=True, app=app)
+            if element == "Saturday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Saturday_day=True, app=app)
+            if element == "Sunday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Sunday_day=True, app=app)
+
+            for elem in list_for_save_hour:
+                hour_start = elem["start"]
+                hour_end = elem["end"]
+                sum_one = elem["sum_one"]
+                Resume_Hour_Dont_Win.objects.create(app=app, day=day_create, hour_start=hour_start, hour_end=hour_end, sum=int(sum_one))
+
     return render(request, 're_data/wallpapers.html', locals())
 
 
@@ -2360,6 +2737,81 @@ def airhockey(request):
         sum_two_1_3 = round(result_summ_1_3 * 1.01)
         ras_1_3 = round(result_summ_1_3 * 0.01)
         list_all_max_time_1_3.append(dict_for_save)
+
+    app = EB_App.objects.get(id=89)
+
+    if "save_result_win" in request.POST:
+        list_for_save_day = list()
+        for element in list_all_winer:
+            day = element["day_of_the_week"]
+            list_for_save_day.append(day)
+
+        list_for_save_hour = list()
+        for element in list_all_max_time_1_2:
+            start_time = element["start_time"]
+            end_time = element["end_time"]
+            sum_one = element["sum_one"]
+            srez_start = int(start_time[0:2])
+            srez_end = int(end_time[0:2])
+            dict_for_day = dict(start=srez_start, end=srez_end, sum_one=int(sum_one))
+            list_for_save_hour.append(dict_for_day)
+
+        for element in list_for_save_day:
+            if element == "Monday":
+                day_create = Resume_Day_Week_Win.objects.create(Monday_day=True, app=app)
+            if element == "Tuesday":
+                day_create = Resume_Day_Week_Win.objects.create(Tuesday_day=True, app=app)
+            if element == "Wednesday":
+                day_create = Resume_Day_Week_Win.objects.create(Wednesday_day=True, app=app)
+            if element == "Thursday":
+                day_create = Resume_Day_Week_Win.objects.create(Thursday_day=True, app=app)
+            if element == "Friday":
+                day_create = Resume_Day_Week_Win.objects.create(Friday_day=True, app=app)
+            if element == "Saturday":
+                day_create = Resume_Day_Week_Win.objects.create(Saturday_day=True, app=app)
+            if element == "Sunday":
+                day_create = Resume_Day_Week_Win.objects.create(Sunday_day=True, app=app)
+
+            for elem in list_for_save_hour:
+                hour_start = elem["start"]
+                hour_end = elem["end"]
+                sum_one = elem["sum_one"]
+                Resume_Hour_Win.objects.create(app=app, day=day_create, hour_start=hour_start, hour_end=hour_end, sum=int(sum_one))
+
+    if "save_result_dont_win" in request.POST:
+        list_for_save_day = list_all_day_week_dont_winner
+
+        list_for_save_hour = list()
+        for element in list_all_max_time_1_3:
+            start_time = element["start_time"]
+            end_time = element["end_time"]
+            sum_one = element["sum_one"]
+            srez_start = int(start_time[0:2])
+            srez_end = int(end_time[0:2])
+            dict_for_day = dict(start=srez_start, end=srez_end, sum_one=int(sum_one))
+            list_for_save_hour.append(dict_for_day)
+
+        for element in list_for_save_day:
+            if element == "Monday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Monday_day=True, app=app)
+            if element == "Tuesday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Tuesday_day=True, app=app)
+            if element == "Wednesday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Wednesday_day=True, app=app)
+            if element == "Thursday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Thursday_day=True, app=app)
+            if element == "Friday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Friday_day=True, app=app)
+            if element == "Saturday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Saturday_day=True, app=app)
+            if element == "Sunday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Sunday_day=True, app=app)
+
+            for elem in list_for_save_hour:
+                hour_start = elem["start"]
+                hour_end = elem["end"]
+                sum_one = elem["sum_one"]
+                Resume_Hour_Dont_Win.objects.create(app=app, day=day_create, hour_start=hour_start, hour_end=hour_end, sum=int(sum_one))
 
     return render(request, 're_data/airhockey.html', locals())
 
@@ -2615,6 +3067,81 @@ def photoshare(request):
         ras_1_3 = round(result_summ_1_3 * 0.01)
         list_all_max_time_1_3.append(dict_for_save)
 
+    app = EB_App.objects.get(id=90)
+
+    if "save_result_win" in request.POST:
+        list_for_save_day = list()
+        for element in list_all_winer:
+            day = element["day_of_the_week"]
+            list_for_save_day.append(day)
+
+        list_for_save_hour = list()
+        for element in list_all_max_time_1_2:
+            start_time = element["start_time"]
+            end_time = element["end_time"]
+            sum_one = element["sum_one"]
+            srez_start = int(start_time[0:2])
+            srez_end = int(end_time[0:2])
+            dict_for_day = dict(start=srez_start, end=srez_end, sum_one=int(sum_one))
+            list_for_save_hour.append(dict_for_day)
+
+        for element in list_for_save_day:
+            if element == "Monday":
+                day_create = Resume_Day_Week_Win.objects.create(Monday_day=True, app=app)
+            if element == "Tuesday":
+                day_create = Resume_Day_Week_Win.objects.create(Tuesday_day=True, app=app)
+            if element == "Wednesday":
+                day_create = Resume_Day_Week_Win.objects.create(Wednesday_day=True, app=app)
+            if element == "Thursday":
+                day_create = Resume_Day_Week_Win.objects.create(Thursday_day=True, app=app)
+            if element == "Friday":
+                day_create = Resume_Day_Week_Win.objects.create(Friday_day=True, app=app)
+            if element == "Saturday":
+                day_create = Resume_Day_Week_Win.objects.create(Saturday_day=True, app=app)
+            if element == "Sunday":
+                day_create = Resume_Day_Week_Win.objects.create(Sunday_day=True, app=app)
+
+            for elem in list_for_save_hour:
+                hour_start = elem["start"]
+                hour_end = elem["end"]
+                sum_one = elem["sum_one"]
+                Resume_Hour_Win.objects.create(app=app, day=day_create, hour_start=hour_start, hour_end=hour_end, sum=int(sum_one))
+
+    if "save_result_dont_win" in request.POST:
+        list_for_save_day = list_all_day_week_dont_winner
+
+        list_for_save_hour = list()
+        for element in list_all_max_time_1_3:
+            start_time = element["start_time"]
+            end_time = element["end_time"]
+            sum_one = element["sum_one"]
+            srez_start = int(start_time[0:2])
+            srez_end = int(end_time[0:2])
+            dict_for_day = dict(start=srez_start, end=srez_end, sum_one=int(sum_one))
+            list_for_save_hour.append(dict_for_day)
+
+        for element in list_for_save_day:
+            if element == "Monday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Monday_day=True, app=app)
+            if element == "Tuesday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Tuesday_day=True, app=app)
+            if element == "Wednesday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Wednesday_day=True, app=app)
+            if element == "Thursday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Thursday_day=True, app=app)
+            if element == "Friday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Friday_day=True, app=app)
+            if element == "Saturday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Saturday_day=True, app=app)
+            if element == "Sunday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Sunday_day=True, app=app)
+
+            for elem in list_for_save_hour:
+                hour_start = elem["start"]
+                hour_end = elem["end"]
+                sum_one = elem["sum_one"]
+                Resume_Hour_Dont_Win.objects.create(app=app, day=day_create, hour_start=hour_start, hour_end=hour_end, sum=int(sum_one))
+
     return render(request, 're_data/photoshare.html', locals())
 
 
@@ -2869,4 +3396,293 @@ def jigsawpuzzle(request):
         ras_1_3 = round(result_summ_1_3 * 0.01)
         list_all_max_time_1_3.append(dict_for_save)
 
+    app = EB_App.objects.get(id=91)
+
+    if "save_result_win" in request.POST:
+        list_for_save_day = list()
+        for element in list_all_winer:
+            day = element["day_of_the_week"]
+            list_for_save_day.append(day)
+
+        list_for_save_hour = list()
+        for element in list_all_max_time_1_2:
+            start_time = element["start_time"]
+            end_time = element["end_time"]
+            sum_one = element["sum_one"]
+            srez_start = int(start_time[0:2])
+            srez_end = int(end_time[0:2])
+            dict_for_day = dict(start=srez_start, end=srez_end, sum_one=int(sum_one))
+            list_for_save_hour.append(dict_for_day)
+
+        for element in list_for_save_day:
+            if element == "Monday":
+                day_create = Resume_Day_Week_Win.objects.create(Monday_day=True, app=app)
+            if element == "Tuesday":
+                day_create = Resume_Day_Week_Win.objects.create(Tuesday_day=True, app=app)
+            if element == "Wednesday":
+                day_create = Resume_Day_Week_Win.objects.create(Wednesday_day=True, app=app)
+            if element == "Thursday":
+                day_create = Resume_Day_Week_Win.objects.create(Thursday_day=True, app=app)
+            if element == "Friday":
+                day_create = Resume_Day_Week_Win.objects.create(Friday_day=True, app=app)
+            if element == "Saturday":
+                day_create = Resume_Day_Week_Win.objects.create(Saturday_day=True, app=app)
+            if element == "Sunday":
+                day_create = Resume_Day_Week_Win.objects.create(Sunday_day=True, app=app)
+
+            for elem in list_for_save_hour:
+                hour_start = elem["start"]
+                hour_end = elem["end"]
+                sum_one = elem["sum_one"]
+                Resume_Hour_Win.objects.create(app=app, day=day_create, hour_start=hour_start, hour_end=hour_end, sum=int(sum_one))
+
+    if "save_result_dont_win" in request.POST:
+        list_for_save_day = list_all_day_week_dont_winner
+
+        list_for_save_hour = list()
+        for element in list_all_max_time_1_3:
+            start_time = element["start_time"]
+            end_time = element["end_time"]
+            sum_one = element["sum_one"]
+            srez_start = int(start_time[0:2])
+            srez_end = int(end_time[0:2])
+            dict_for_day = dict(start=srez_start, end=srez_end, sum_one=int(sum_one))
+            list_for_save_hour.append(dict_for_day)
+
+        for element in list_for_save_day:
+            if element == "Monday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Monday_day=True, app=app)
+            if element == "Tuesday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Tuesday_day=True, app=app)
+            if element == "Wednesday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Wednesday_day=True, app=app)
+            if element == "Thursday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Thursday_day=True, app=app)
+            if element == "Friday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Friday_day=True, app=app)
+            if element == "Saturday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Saturday_day=True, app=app)
+            if element == "Sunday":
+                day_create = Resume_Day_Week_Dont_Win.objects.create(Sunday_day=True, app=app)
+
+            for elem in list_for_save_hour:
+                hour_start = elem["start"]
+                hour_end = elem["end"]
+                sum_one = elem["sum_one"]
+                Resume_Hour_Dont_Win.objects.create(app=app, day=day_create, hour_start=hour_start, hour_end=hour_end, sum=int(sum_one))
+
     return render(request, 're_data/jigsawpuzzle.html', locals())
+
+
+def resume(request):
+    print(request.POST)
+    for_view = False
+
+    if "find" in request.POST:
+        request_for_search = request.POST
+        day_week = request_for_search["day_week"]
+        time_start = int(request_for_search["time_start"])
+        time_end = int(request_for_search["time_end"])
+        app_che = int(request_for_search["app_che"])
+        app_che_for_view = app_che
+
+
+        if time_start != time_end and time_start < time_end:
+            time_start_re = time_start
+            time_end_re = time_end
+            list_hour_for_search = list()
+            while time_start_re < time_end_re:
+                list_hour_for_search.append(time_start_re)
+                time_start_re = time_start_re + 1
+            print("список часов в поиске - ", list_hour_for_search)
+
+            all_active_hour = Active_Hour.objects.filter(active_hour__in=list_hour_for_search, day_of_the_week__day_of_the_week=day_week)
+
+            list_app = list()
+            for element in all_active_hour:
+                if element.app not in list_app:
+                    list_app.append(element.app)
+            print("все приложения - ", list_app)
+
+            list_app_summ = list()
+            all_sum = 0
+            for element in list_app:
+                all_active_hour = Active_Hour.objects.filter(app=element, active_hour__in=list_hour_for_search,
+                                                             day_of_the_week__day_of_the_week=day_week)
+                sum = 0
+                for hour in all_active_hour:
+                    revenue = hour.order.revenue
+                    sum = sum + revenue
+                all_sum = all_sum + sum
+                dict_for_save = dict(app=element, sum=sum)
+                list_app_summ.append(dict_for_save)
+            print("Список всех приложений - ", list_app_summ)
+            print(all_sum)
+            if all_sum != 0 or len(list_app) != 0:
+                koef = all_sum / len(list_app)
+                print(koef)
+
+            result_win_no_sorted = list()
+            list_sum_no_sorted = list()
+            for element in list_app_summ:
+                if element["sum"] > koef:
+                    result_win_no_sorted.append(element)
+                    list_sum_no_sorted.append(element["sum"])
+            print("Список всх приложений привышающих коэффициент - ", result_win_no_sorted)
+            print("Список сумм - ", list_sum_no_sorted)
+
+            list_sum_sorted = sorted(list_sum_no_sorted, reverse=True)
+
+            result_win_no_sorted_for_del = result_win_no_sorted
+
+            list_wins = list()
+            for element in list_sum_sorted:
+                for elem in result_win_no_sorted:
+                    if elem["sum"] == element and elem in result_win_no_sorted_for_del:
+                        list_wins.append(elem)
+                        index_for_del = result_win_no_sorted_for_del.index(elem)
+                        result_win_no_sorted_for_del.pop(index_for_del)
+
+            print(list_wins)
+
+            len_list_wins = len(list_wins)
+            if app_che > len_list_wins:
+                app_che = len_list_wins
+
+            index_elem = 0
+            result = list()
+            while index_elem < app_che:
+                result.append(list_wins[index_elem])
+                index_elem = index_elem + 1
+            print(result)
+            for_view = True
+
+
+
+
+
+
+
+
+
+
+
+
+
+#         list_app = list()
+#         for element in list_hour_for_search:
+#             sum = 0
+#             if day_week == "Monday":
+#                 result_hours = Resume_Hour_Win.objects.filter(hour_start=element, day__Monday_day=True)
+#             if day_week == "Tuesday":
+#                 result_hours = Resume_Hour_Win.objects.filter(hour_start=element, day__Tuesday_day=True)
+#             if day_week == "Wednesday":
+#                 result_hours = Resume_Hour_Win.objects.filter(hour_start=element, day__Wednesday_day=True)
+#             if day_week == "Thursday":
+#                 result_hours = Resume_Hour_Win.objects.filter(hour_start=element, day__Thursday_day=True)
+#             if day_week == "Friday":
+#                 result_hours = Resume_Hour_Win.objects.filter(hour_start=element, day__Friday_day=True)
+#             if day_week == "Saturday":
+#                 result_hours = Resume_Hour_Win.objects.filter(hour_start=element, day__Saturday_day=True)
+#             if day_week == "Sunday":
+#                 result_hours = Resume_Hour_Win.objects.filter(hour_start=element, day__Sunday_day=True)
+#
+#             for elem in result_hours:
+#                 if elem.app not in list_app:
+#                     list_app.append(elem.app)
+#         print(list_app)
+#
+#         all_apps_sum = list()
+#         list_sum = list()
+#         for element in list_app:
+#             print("Приложение - ", element.name)
+#             all_active_hour = Active_Hour.objects.filter(app=element, active_hour__in=list_hour_for_search, day_of_the_week__day_of_the_week=day_week)
+#             sum = 0
+#             for hour in all_active_hour:
+#                 revenue = hour.order.revenue
+#                 sum = sum + revenue
+#             dict_for_save = dict(app=element, sum=sum)
+#             all_apps_sum.append(dict_for_save)
+#             list_sum.append(sum)
+#         print("Словарь - ", all_apps_sum)
+#         list_sum_sorted = sorted(list_sum, reverse=True)
+#         print("Список сумм сортированный", list_sum_sorted)
+#
+#         list_app_result_no_del = list()
+#         for element in list_sum_sorted:
+#             for elem in all_apps_sum:
+#                 if elem["sum"] == element:
+#                     list_app_result_no_del.append(elem)
+#         print("Список не сортированный - для удаления ", list_app_result_no_del)
+#
+#         len_list_app_result_no_del = len(list_app_result_no_del)
+#         if app_che > len_list_app_result_no_del:
+#             app_che = len_list_app_result_no_del
+#
+#         index_elem = 0
+#         result = list()
+#         while index_elem < app_che:
+#             result.append(list_app_result_no_del[index_elem])
+#             index_elem = index_elem + 1
+#         print(result)
+#
+#
+# # +++++++++++++++++++++++++++++++++++++++++++++++
+#
+#         list_app_low = list()
+#         for element in list_hour_for_search:
+#             sum = 0
+#             if day_week == "Monday":
+#                 result_hours_low = Resume_Hour_Dont_Win.objects.filter(hour_start=element, day__Monday_day=True)
+#             if day_week == "Tuesday":
+#                 result_hours_low = Resume_Hour_Dont_Win.objects.filter(hour_start=element, day__Tuesday_day=True)
+#             if day_week == "Wednesday":
+#                 result_hours_low = Resume_Hour_Dont_Win.objects.filter(hour_start=element, day__Wednesday_day=True)
+#             if day_week == "Thursday":
+#                 result_hours_low = Resume_Hour_Dont_Win.objects.filter(hour_start=element, day__Thursday_day=True)
+#             if day_week == "Friday":
+#                 result_hours_low = Resume_Hour_Dont_Win.objects.filter(hour_start=element, day__Friday_day=True)
+#             if day_week == "Saturday":
+#                 result_hours_low = Resume_Hour_Dont_Win.objects.filter(hour_start=element, day__Saturday_day=True)
+#             if day_week == "Sunday":
+#                 result_hours_low = Resume_Hour_Dont_Win.objects.filter(hour_start=element, day__Sunday_day=True)
+#
+#             for elem in result_hours_low:
+#                 if elem.app not in list_app_low:
+#                     list_app_low.append(elem.app)
+#         print(list_app_low)
+#
+#         all_apps_sum_low = list()
+#         list_sum_low = list()
+#         for element in list_app_low:
+#             all_active_hour_low = Active_Hour.objects.filter(app=element, active_hour__in=list_hour_for_search, day_of_the_week__day_of_the_week=day_week)
+#             sum_low = 0
+#             for hour in all_active_hour_low:
+#                 revenue = hour.order.revenue
+#                 sum_low = sum_low + revenue
+#             dict_for_save_low = dict(app=element, sum=sum_low)
+#             all_apps_sum_low.append(dict_for_save_low)
+#             list_sum_low.append(sum_low)
+#         print("Словарь - ", all_apps_sum_low)
+#         list_sum_sorted_low = sorted(list_sum_low, reverse=True)
+#         print("Список сумм сортированный", list_sum_sorted_low)
+#
+#         list_app_result_no_del_low = list()
+#         for element in list_sum_sorted_low:
+#             for elem in all_apps_sum_low:
+#                 if elem["sum"] == element:
+#                     list_app_result_no_del_low.append(elem)
+#         print("Список не сортированный - для удаления ", list_app_result_no_del_low)
+#
+#         len_list_app_result_no_del_low = len(list_app_result_no_del_low)
+#         if app_che > len_list_app_result_no_del_low:
+#             app_che = len_list_app_result_no_del_low
+#
+#         index_elem = 0
+#         result_low = list()
+#         while index_elem < app_che:
+#             result_low.append(list_app_result_no_del_low[index_elem])
+#             index_elem = index_elem + 1
+#         print(result_low)
+
+    return render(request, 're_data/resume.html', locals())

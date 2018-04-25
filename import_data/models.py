@@ -251,3 +251,74 @@ class Active_Hour(models.Model):
     class Meta:
         verbose_name = 'Анализ - активные часы'
         verbose_name_plural = 'Анализ - активные часы'
+
+
+class Resume_Day_Week_Win(models.Model):
+    app = models.ForeignKey(EB_App, blank=True, null=True, default=None, on_delete=models.CASCADE)
+    Monday_day = models.BooleanField(default=False)
+    Tuesday_day = models.BooleanField(default=False)
+    Wednesday_day = models.BooleanField(default=False)
+    Thursday_day = models.BooleanField(default=False)
+    Friday_day = models.BooleanField(default=False)
+    Saturday_day = models.BooleanField(default=False)
+    Sunday_day = models.BooleanField(default=False)
+
+    def __str__(self):
+        return "%s" % self.id
+
+    class Meta:
+        verbose_name = 'Резюме - дни недели (Максимальные)'
+        verbose_name_plural = 'Резюме - дни недели (Максимальные)'
+
+
+class Resume_Hour_Win(models.Model):
+    app = models.ForeignKey(EB_App, blank=True, null=True, default=None, on_delete=models.CASCADE)
+    day = models.ForeignKey(Resume_Day_Week_Win, blank=True, null=True, default=None, on_delete=models.CASCADE)
+    hour_start = models.IntegerField(default=0)
+    hour_end = models.IntegerField(default=0)
+    sum = models.IntegerField(default=0)
+
+    def __str__(self):
+        return "%s" % self.id
+
+    class Meta:
+        verbose_name = 'Резюме - активные часы (Максимальные)'
+        verbose_name_plural = 'Резюме - активные часы (Максимальные)'
+
+
+class Resume_Day_Week_Dont_Win(models.Model):
+    app = models.ForeignKey(EB_App, blank=True, null=True, default=None, on_delete=models.CASCADE)
+    Monday_day = models.BooleanField(default=False)
+    Tuesday_day = models.BooleanField(default=False)
+    Tuesday_day = models.BooleanField(default=False)
+    Wednesday_day = models.BooleanField(default=False)
+    Thursday_day = models.BooleanField(default=False)
+    Friday_day = models.BooleanField(default=False)
+    Saturday_day = models.BooleanField(default=False)
+    Sunday_day = models.BooleanField(default=False)
+
+    def __str__(self):
+        return "%s" % self.id
+
+    class Meta:
+        verbose_name = 'Резюме - дни недели (Не максимальные)'
+        verbose_name_plural = 'Резюме - дни недели (Не максимальные)'
+
+
+class Resume_Hour_Dont_Win(models.Model):
+    app = models.ForeignKey(EB_App, blank=True, null=True, default=None, on_delete=models.CASCADE)
+    day = models.ForeignKey(Resume_Day_Week_Dont_Win, blank=True, null=True, default=None, on_delete=models.CASCADE)
+    hour_start = models.IntegerField(default=0)
+    hour_end = models.IntegerField(default=0)
+    sum = models.IntegerField(default=0)
+
+
+    def __str__(self):
+        return "%s" % self.id
+
+    class Meta:
+        verbose_name = 'Резюме - активные часы (Не максимальные)'
+        verbose_name_plural = 'Резюме - активные часы (Не максимальные)'
+
+
+
